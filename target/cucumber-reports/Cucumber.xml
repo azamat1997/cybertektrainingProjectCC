@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.005694">
+    <testcase classname="" name="Verify Update Teacher functionality" time="0.004422">
+        <skipped>
+            <![CDATA[When User click on 3dots button on Christian teacher........................undefined
+And User click on Edit button...............................................skipped
+And User edit "Macarena" in first name......................................undefined
+And User edit "John" in last name...........................................undefined
+And User edit "mcjo@xxx.com" in email.......................................undefined
+And User edit "01/01/2020" in joining date calendar.........................undefined
+And User edit "43212" in password...........................................undefined
+And User edit "HR" in subject...............................................undefined
+And User edit "0987654321" in mobile number.................................undefined
+And User edit "Female" in gender............................................undefined
+And User edit "Science" in department dropdown..............................undefined
+And User edit "01/01/2001" in birth date calendar...........................undefined
+And User edit "5000" in salary..............................................undefined
+And User edit "2" in batch..................................................undefined
+And User edit "Auto" in section.............................................undefined
+And User edit "2ndAvenue" in present adress.................................undefined
+And User click Submit button................................................skipped
+Then User should see the edited profile displayed in the UI.................skipped
+And Tester should be able to veryfy the edited Teacher in DataBase..........skipped
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="" name="Verify Update Teacher functionality 2" time="0.001272">
+        <skipped>
+            <![CDATA[When User click on 3dots button on Christian teacher........................undefined
+And User click on Edit button...............................................skipped
+And User edit "Cocolero" in first name......................................undefined
+And User edit "Coco" in last name...........................................undefined
+And User edit "coco@aaa.com" in email.......................................undefined
+And User edit "22/12/2020" in joining date calendar.........................undefined
+And User edit "44444" in password...........................................undefined
+And User edit "PP" in subject...............................................undefined
+And User edit "5555555555" in mobile number.................................undefined
+And User edit "Male" in gender..............................................undefined
+And User edit "English" in department dropdown..............................undefined
+And User edit "11/11/2002" in birth date calendar...........................undefined
+And User edit "33000" in salary.............................................undefined
+And User edit "5" in batch..................................................undefined
+And User edit "Java" in section.............................................undefined
+And User edit "8thAvenue" in present adress.................................undefined
+And User click Submit button................................................skipped
+Then User should see the edited profile displayed in the UI.................skipped
+And Tester should be able to veryfy the edited Teacher in DataBase..........skipped
+]]>
+        </skipped>
+    </testcase>
+</testsuite>
