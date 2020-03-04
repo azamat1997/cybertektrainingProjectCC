@@ -10,89 +10,89 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "Verify Create Teacher Functionality",
+  "name": "Verifying Adding New Teacher Functionality",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@COD-278"
+      "name": "@COD-280"
     }
   ]
 });
 formatter.step({
-  "name": "User clicks on Teachers module",
+  "name": "User clicks to Teacher Field",
   "keyword": "When "
 });
 formatter.step({
-  "name": "User clicks on Add Teacher",
+  "name": "User clicks to Add Teacher field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cFirst name\u003e\" in first name",
+  "name": "User types \"\u003cFirst name\u003e\" in to first name field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cLast name\u003e\" in last name",
+  "name": "User types \"\u003cLast name\u003e \" in to last name field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cEmail\u003e\" in email",
+  "name": "User types  \"\u003cEmail address\u003e\" in to email field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cJoining Date\u003e\" in joining date",
+  "name": "User types \"\u003cJoining date \u003e\" in to join date field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cPassword\u003e\" in password",
+  "name": "User types \"\u003c Password\u003e\" in to password field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cSubject\u003e\" in subject",
+  "name": "User types \"\u003cSubject\u003e\" in to subject field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cMobile number\u003e\" in mobile number",
+  "name": "User types \"\u003c Mobile number \u003e\" in to mobile number field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User selects \"\u003cGender\u003e\" in gender",
+  "name": "User selects \"\u003cGender \u003e\" from Gender dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User selects \"\u003cDepartment\u003e\" in department",
+  "name": "User selects \"\u003cDepartment\u003e\" from Department dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cBirth Date\u003e\" in birth date",
+  "name": "User types \"\u003cBirth Date\u003e\" in to Birth date field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cSalary\u003e\" in salary",
+  "name": "User types \"\u003c Salary \u003e\" in to Salary field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User selects \"\u003cBatch\u003e\" in batch",
+  "name": "User selects \"\u003cBatch\u003e\" in to batch field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cSection\u003e\" in section",
+  "name": "User types \"\u003cSection\u003e\" in to section field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enters \"\u003cPermanent Address\u003e\" in permanent address",
+  "name": "User types \"\u003cAddress\u003e \" in to permanent address field",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User clicks on Submit button",
+  "name": "User clicks the submit button",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User should be able to see created teacher displayed in the UI",
+  "name": "User should be able to verify that her name is displayed in the teacher list",
   "keyword": "Then "
 });
 formatter.step({
-  "name": "Tester should be able to verify created teacher in the Database",
+  "name": "Tester should be able to verify the new teacher\u0027s name is on the database",
   "keyword": "And "
 });
 formatter.examples({
@@ -104,15 +104,14 @@ formatter.examples({
       "cells": [
         "First name",
         "Last name",
-        "Email",
-        "Joining Date",
+        "Email address",
+        "Joining date",
         "Password",
         "Subject",
         "Mobile number",
         "Gender",
         "Department",
         "Birth Date",
-        "Salary",
         "Batch",
         "Section",
         "Permanent Address"
@@ -120,26 +119,25 @@ formatter.examples({
     },
     {
       "cells": [
-        "Dwight",
-        "Schrute",
-        "dwightschrute@dundermifflin.com",
-        "01/01/2000",
-        "6789",
-        "Business",
-        "8475555678",
-        "Male",
-        "English",
-        "08/15/1980",
-        "80000",
+        "Grace",
+        "Kelly",
+        "gkell@gmail.com",
+        "3/2/2020",
+        "12345",
+        "Wars",
+        "123456778",
+        "Female",
+        "Social Studies",
+        "2/3/1980",
         "12",
-        "Paper",
-        "Scranton, PA"
+        "3",
+        "123 Main St IL"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "Verify Create Teacher Functionality",
+  "name": "Verifying Adding New Teacher Functionality",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -147,204 +145,202 @@ formatter.scenario({
       "name": "@COD-279"
     },
     {
-      "name": "@COD-278"
+      "name": "@COD-280"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User clicks on Teachers module",
+  "name": "User clicks to Teacher Field",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_clicks_on_Teachers_module()"
+  "location": "Adding_Teacher_StepDefs.user_clicks_to_Teacher_Field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User clicks on Add Teacher",
+  "name": "User clicks to Add Teacher field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_clicks_on_Add_Teacher()"
+  "location": "Adding_Teacher_StepDefs.user_clicks_to_Add_Teacher_field()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"Dwight\" in first name",
+  "name": "User types \"Grace\" in to first name field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_first_name(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_first_name_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"Schrute\" in last name",
+  "name": "User types \"Kelly \" in to last name field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_last_name(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_last_name_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"dwightschrute@dundermifflin.com\" in email",
+  "name": "User types  \"gkell@gmail.com\" in to email field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_email(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_email_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"01/01/2000\" in joining date",
+  "name": "User types \"\u003cJoining date \u003e\" in to join date field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_joining_date(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_join_date_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"6789\" in password",
+  "name": "User types \"\u003c Password\u003e\" in to password field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_password(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_password_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"Business\" in subject",
+  "name": "User types \"Wars\" in to subject field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_subject(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_subject_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"8475555678\" in mobile number",
+  "name": "User types \"\u003c Mobile number \u003e\" in to mobile number field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_mobile_number(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_mobile_number_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User selects \"Male\" in gender",
+  "name": "User selects \"\u003cGender \u003e\" from Gender dropdown",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_selects_in_gender(String)"
+  "location": "Adding_Teacher_StepDefs.user_selects_from_Gender_dropdown(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User selects \"English\" in department",
+  "name": "User selects \"Social Studies\" from Department dropdown",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_selects_in_department(String)"
+  "location": "Adding_Teacher_StepDefs.user_selects_from_Department_dropdown(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"08/15/1980\" in birth date",
+  "name": "User types \"2/3/1980\" in to Birth date field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_birth_date(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_Birth_date_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"80000\" in salary",
+  "name": "User types \"\u003c Salary \u003e\" in to Salary field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_salary(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_Salary_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User selects \"12\" in batch",
+  "name": "User selects \"12\" in to batch field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_selects_in_batch(String)"
+  "location": "Adding_Teacher_StepDefs.user_selects_in_to_batch_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"Paper\" in section",
+  "name": "User types \"3\" in to section field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_section(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_section_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User enters \"Scranton, PA\" in permanent address",
+  "name": "User types \"\u003cAddress\u003e \" in to permanent address field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_enters_in_permanent_address(String)"
+  "location": "Adding_Teacher_StepDefs.user_types_in_to_permanent_address_field(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User clicks on Submit button",
+  "name": "User clicks the submit button",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.user_clicks_on_Submit_button()"
+  "location": "Adding_Teacher_StepDefs.user_clicks_the_submit_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "User should be able to see created teacher displayed in the UI",
+  "name": "User should be able to verify that her name is displayed in the teacher list",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Tester should be able to verify created teacher in the Database",
+  "name": "Tester should be able to verify the new teacher\u0027s name is on the database",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateTeacher_StepDefs.tester_should_be_able_to_verify_created_teacher_in_the_Database()"
+  "location": "Adding_Teacher_StepDefs.tester_should_be_able_to_verify_the_new_teacher_s_name_is_on_the_database()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });

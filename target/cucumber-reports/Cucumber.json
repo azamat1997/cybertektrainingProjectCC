@@ -6,23 +6,23 @@
         "before": [
           {
             "result": {
-              "duration": 6655332500,
-              "status": "passed"
+              "duration": 940758,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.setUp()"
             }
           }
         ],
-        "line": 29,
-        "name": "Verify Create Teacher Functionality",
+        "line": 224,
+        "name": "Verifying Adding New Teacher Functionality",
         "description": "",
-        "id": "student-and-teacher-creation/editing/deletion-verification;verify-create-teacher-functionality;;2",
+        "id": "student-and-teacher-creation/editing/deletion-verification;verifying-adding-new-teacher-functionality;;2",
         "after": [
           {
             "result": {
-              "duration": 742746700,
-              "status": "passed"
+              "duration": 7506,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -34,233 +34,233 @@
         "steps": [
           {
             "result": {
-              "duration": 230228600,
-              "status": "passed"
+              "duration": 107164,
+              "status": "skipped"
             },
-            "line": 7,
-            "name": "User clicks on Teachers module",
+            "line": 181,
+            "name": "User clicks to Teacher Field",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Teachers_module()"
+              "location": "Adding_Teacher_StepDefs.user_clicks_to_Teacher_Field()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 617500400,
-              "status": "passed"
+              "duration": 15240,
+              "status": "skipped"
             },
-            "line": 8,
-            "name": "User clicks on Add Teacher",
+            "line": 183,
+            "name": "User clicks to Add Teacher field",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Add_Teacher()"
+              "location": "Adding_Teacher_StepDefs.user_clicks_to_Add_Teacher_field()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1326877200,
-              "status": "passed"
+              "duration": 11972,
+              "status": "skipped"
             },
-            "line": 9,
-            "name": "User enters \"Dwight\" in first name",
+            "line": 185,
+            "name": "User types \"Grace\" in to first name field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Dwight\"",
+                  "val": "\"Grace\"",
+                  "offset": 11
+                }
+              ],
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_first_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8898,
+              "status": "skipped"
+            },
+            "line": 187,
+            "name": "User types \"Kelly \" in to last name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kelly \"",
+                  "offset": 11
+                }
+              ],
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_last_name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9046,
+              "status": "skipped"
+            },
+            "line": 189,
+            "name": "User types  \"gkell@gmail.com\" in to email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gkell@gmail.com\"",
                   "offset": 12
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_first_name(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_email_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1377904500,
-              "status": "passed"
+              "duration": 8674,
+              "status": "skipped"
             },
-            "line": 10,
-            "name": "User enters \"Schrute\" in last name",
+            "line": 191,
+            "name": "User types \"\u003cJoining date \u003e\" in to join date field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Schrute\"",
-                  "offset": 12
+                  "val": "\"\u003cJoining date \u003e\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_last_name(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_join_date_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1471159200,
-              "status": "passed"
+              "duration": 8271,
+              "status": "skipped"
             },
-            "line": 11,
-            "name": "User enters \"dwightschrute@dundermifflin.com\" in email",
+            "line": 193,
+            "name": "User types \"\u003c Password\u003e\" in to password field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"dwightschrute@dundermifflin.com\"",
-                  "offset": 12
+                  "val": "\"\u003c Password\u003e\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_email(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_password_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 223641800,
-              "status": "passed"
+              "duration": 12327,
+              "status": "skipped"
             },
-            "line": 12,
-            "name": "User enters \"01/01/2000\" in joining date",
+            "line": 195,
+            "name": "User types \"Wars\" in to subject field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"01/01/2000\"",
-                  "offset": 12
+                  "val": "\"Wars\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_joining_date(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_subject_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 147175500,
-              "status": "passed"
+              "duration": 9556,
+              "status": "skipped"
             },
-            "line": 13,
-            "name": "User enters \"6789\" in password",
+            "line": 197,
+            "name": "User types \"\u003c Mobile number \u003e\" in to mobile number field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"6789\"",
-                  "offset": 12
+                  "val": "\"\u003c Mobile number \u003e\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_password(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_mobile_number_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 137465800,
-              "status": "passed"
+              "duration": 9241,
+              "status": "skipped"
             },
-            "line": 14,
-            "name": "User enters \"Business\" in subject",
+            "line": 199,
+            "name": "User selects \"\u003cGender \u003e\" from Gender dropdown",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Business\"",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_subject(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2167553500,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User enters \"8475555678\" in mobile number",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"8475555678\"",
-                  "offset": 12
-                }
-              ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_mobile_number(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 137513900,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User selects \"Male\" in gender",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Male\"",
+                  "val": "\"\u003cGender \u003e\"",
                   "offset": 13
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_gender(String)"
+              "location": "Adding_Teacher_StepDefs.user_selects_from_Gender_dropdown(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 178559200,
-              "status": "passed"
+              "duration": 9287,
+              "status": "skipped"
             },
-            "line": 17,
-            "name": "User selects \"English\" in department",
+            "line": 201,
+            "name": "User selects \"Social Studies\" from Department dropdown",
             "match": {
               "arguments": [
                 {
-                  "val": "\"English\"",
+                  "val": "\"Social Studies\"",
                   "offset": 13
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_department(String)"
+              "location": "Adding_Teacher_StepDefs.user_selects_from_Department_dropdown(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 225999500,
-              "status": "passed"
+              "duration": 8115,
+              "status": "skipped"
             },
-            "line": 18,
-            "name": "User enters \"08/15/1980\" in birth date",
+            "line": 203,
+            "name": "User types \"2/3/1980\" in to Birth date field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"08/15/1980\"",
-                  "offset": 12
+                  "val": "\"2/3/1980\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_birth_date(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_Birth_date_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 267892600,
-              "status": "passed"
+              "duration": 8487,
+              "status": "skipped"
             },
-            "line": 19,
-            "name": "User enters \"80000\" in salary",
+            "line": 205,
+            "name": "User types \"\u003c Salary \u003e\" in to Salary field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"80000\"",
-                  "offset": 12
+                  "val": "\"\u003c Salary \u003e\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_salary(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_Salary_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 191251300,
-              "status": "passed"
+              "duration": 8470,
+              "status": "skipped"
             },
-            "line": 20,
-            "name": "User selects \"12\" in batch",
+            "line": 207,
+            "name": "User selects \"12\" in to batch field",
             "match": {
               "arguments": [
                 {
@@ -268,79 +268,76 @@
                   "offset": 13
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_batch(String)"
+              "location": "Adding_Teacher_StepDefs.user_selects_in_to_batch_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 186371700,
-              "status": "passed"
+              "duration": 8161,
+              "status": "skipped"
             },
-            "line": 21,
-            "name": "User enters \"Paper\" in section",
+            "line": 209,
+            "name": "User types \"3\" in to section field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Paper\"",
-                  "offset": 12
+                  "val": "\"3\"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_section(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_section_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 258838900,
-              "status": "passed"
+              "duration": 7909,
+              "status": "skipped"
             },
-            "line": 22,
-            "name": "User enters \"Scranton, PA\" in permanent address",
+            "line": 211,
+            "name": "User types \"\u003cAddress\u003e \" in to permanent address field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Scranton, PA\"",
-                  "offset": 12
+                  "val": "\"\u003cAddress\u003e \"",
+                  "offset": 11
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_permanent_address(String)"
+              "location": "Adding_Teacher_StepDefs.user_types_in_to_permanent_address_field(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 121988200,
-              "status": "passed"
+              "duration": 8058,
+              "status": "skipped"
             },
-            "line": 23,
-            "name": "User clicks on Submit button",
+            "line": 213,
+            "name": "User clicks the submit button",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Submit_button()"
+              "location": "Adding_Teacher_StepDefs.user_clicks_the_submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 631008300,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 24,
-            "name": "User should be able to see created teacher displayed in the UI",
-            "match": {
-              "location": "CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI()"
-            },
+            "line": 215,
+            "name": "User should be able to verify that her name is displayed in the teacher list",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1016946500,
-              "status": "passed"
+              "duration": 11293,
+              "status": "skipped"
             },
-            "line": 25,
-            "name": "Tester should be able to verify created teacher in the Database",
+            "line": 217,
+            "name": "Tester should be able to verify the new teacher\u0027s name is on the database",
             "match": {
-              "location": "CreateTeacher_StepDefs.tester_should_be_able_to_verify_created_teacher_in_the_Database()"
+              "location": "Adding_Teacher_StepDefs.tester_should_be_able_to_verify_the_new_teacher_s_name_is_on_the_database()"
             },
             "keyword": "And "
           }
@@ -350,7 +347,7 @@
             "name": "@COD-279"
           },
           {
-            "name": "@COD-278"
+            "name": "@COD-280"
           }
         ]
       }

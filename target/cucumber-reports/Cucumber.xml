@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.317335">
-    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verify Create Teacher Functionality" time="18.317335">
-        <system-out>
-            <![CDATA[When User clicks on Teachers module.........................................passed
-And User clicks on Add Teacher..............................................passed
-And User enters "Dwight" in first name......................................passed
-And User enters "Schrute" in last name......................................passed
-And User enters "dwightschrute@dundermifflin.com" in email..................passed
-And User enters "01/01/2000" in joining date................................passed
-And User enters "6789" in password..........................................passed
-And User enters "Business" in subject.......................................passed
-And User enters "8475555678" in mobile number...............................passed
-And User selects "Male" in gender...........................................passed
-And User selects "English" in department....................................passed
-And User enters "08/15/1980" in birth date..................................passed
-And User enters "80000" in salary...........................................passed
-And User selects "12" in batch..............................................passed
-And User enters "Paper" in section..........................................passed
-And User enters "Scranton, PA" in permanent address.........................passed
-And User clicks on Submit button............................................passed
-Then User should be able to see created teacher displayed in the UI.........passed
-And Tester should be able to verify created teacher in the Database.........passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.010235">
+    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verifying Adding New Teacher Functionality" time="0.010235">
+        <skipped>
+            <![CDATA[When User clicks to Teacher Field...........................................skipped
+And User clicks to Add Teacher field........................................skipped
+And User types "Grace" in to first name field...............................skipped
+And User types "Kelly " in to last name field...............................skipped
+And User types  "gkell@gmail.com" in to email field.........................skipped
+And User types "<Joining date >" in to join date field......................skipped
+And User types "< Password>" in to password field...........................skipped
+And User types "Wars" in to subject field...................................skipped
+And User types "< Mobile number >" in to mobile number field................skipped
+And User selects "<Gender >" from Gender dropdown...........................skipped
+And User selects "Social Studies" from Department dropdown..................skipped
+And User types "2/3/1980" in to Birth date field............................skipped
+And User types "< Salary >" in to Salary field..............................skipped
+And User selects "12" in to batch field.....................................skipped
+And User types "3" in to section field......................................skipped
+And User types "<Address> " in to permanent address field...................skipped
+And User clicks the submit button...........................................skipped
+Then User should be able to verify that her name is displayed in the teacher list.undefined
+And Tester should be able to verify the new teacher's name is on the database.skipped
 ]]>
-        </system-out>
+        </skipped>
     </testcase>
 </testsuite>
