@@ -19,4 +19,10 @@ public class HomePage {
 
     @FindBy(xpath = "//a[.='Add Teacher']")
     public WebElement addTeacherButton;
+
+
+
+    @FindBy(xpath = "(//li[@class='submenu'])[2]/a/span[1]")
+    public WebElement students;
+
 }

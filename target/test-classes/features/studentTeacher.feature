@@ -153,7 +153,6 @@ Feature: Student and Teacher creation/editing/deletion Verification
 		    And User enter "<Email>" in email 
 		    And User enter "<Joining Date>" in joining date 
 		    And User enter "<Password>" in password 
-		    And User enter "<Comfirm Password>" in comfirm password 
 		    And User enter "<Subject>" in subject
 		    And User enter "<Mobile number>" in mobile number
 		    And User enter "<Gender>" in gender
@@ -173,6 +172,6 @@ Feature: Student and Teacher creation/editing/deletion Verification
 		    Then User click to the Submit button
 		    
 		   Examples:
-		     | Firstname | Lastname | Email               |Joining Date|Password|Comfirm Password|Subject|Mobile number|Gender|Admission No|Birth Date|Major  |Batch|Section|Present Address   |Company Name|Title   |Start Date|City   |Street (123 N. California, Apt 1)|ZipCode|State|
-		     | John      | Johnes   | johnjohnes@gmail.com| 03/10/2018 |12345   |12345           |tttt   |312312777    |male  |123         |12/12/1989|fighter|1    |2      |123 chicago street|Jonh inc    |fighter |02/02/2020|chicago|1223 chicago street              | 60659 |IL   |
+		     | Firstname | Lastname | Email               |Joining Date|Password|Subject|Mobile number|Gender|Admission No|Birth Date|Major  |Batch|Section|Present Address   |Company Name|Title   |Start Date|City   |Street (123 N. California, Apt 1)|ZipCode|State|
+		     | John      | Johnes   | johnjohnes@gmail.com| 03/10/2018 |12345   |tttt   |312312777    |male  |123         |12/12/1989|fighter|1    |2      |123 chicago street|Jonh inc    |fighter |02/02/2020|chicago|1223 chicago street              | 60659 |IL   |
 		 
