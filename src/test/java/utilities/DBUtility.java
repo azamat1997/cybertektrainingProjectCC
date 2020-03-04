@@ -7,10 +7,13 @@ import java.util.List;
 import java.util.Map;
 
 public class DBUtility {
+
     private static Connection connection;
     private  static Statement statement;
     private static ResultSet resultSet;
+
     public static  void createConnection () throws SQLException {
+
         switch (Config.getProperty("dbType")){
             case "oracle":
                 connection = DriverManager.getConnection(Config.getProperty("dbUrl"),
