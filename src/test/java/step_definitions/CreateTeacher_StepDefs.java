@@ -12,9 +12,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pages.AddTeacherPage;
 import pages.AllTeachersPage;
 import pages.HomePage;
+import utilities.DBUtility;
 import utilities.Driver;
 import utilities.SeleniumUtils;
 import utilities.TempStorage;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 public class CreateTeacher_StepDefs {
     HomePage homePage = new HomePage();
@@ -137,6 +142,25 @@ public class CreateTeacher_StepDefs {
 
     @Then("Tester should be able to verify created teacher in the Database")
     public void tester_should_be_able_to_verify_created_teacher_in_the_Database() {
+
+        try {
+            DBUtility.createConnection();
+            List<Map<Object, Object>> data = DBUtility.executionQuery("select first_name from teacher");
+            DBUtility.close();
+
+            for(Map<Object, Object> map: data){
+                if(map.containsValue(TempStorage.getData("teacherFirstName"))){
+                    Assert.assertTrue("No matching record found. Verification FAILED", map.containsValue(TempStorage.getData("teacherFirstName")));
+                    return;
+                }
+                Assert.fail();
+            }
+
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+
 
     }
  }

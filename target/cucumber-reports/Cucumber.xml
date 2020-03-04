@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.6834">
-    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verify Create Teacher Functionality" time="21.6834">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.317335">
+    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verify Create Teacher Functionality" time="18.317335">
         <system-out>
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
@@ -14,7 +14,7 @@ And User enters "8475555678" in mobile number...............................pass
 And User selects "Male" in gender...........................................passed
 And User selects "English" in department....................................passed
 And User enters "08/15/1980" in birth date..................................passed
-And User enters "100000" in salary..........................................passed
+And User enters "80000" in salary...........................................passed
 And User selects "12" in batch..............................................passed
 And User enters "Paper" in section..........................................passed
 And User enters "Scranton, PA" in permanent address.........................passed
