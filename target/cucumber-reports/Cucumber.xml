@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.6834">
+    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verify Create Teacher Functionality" time="21.6834">
+        <system-out>
+            <![CDATA[When User clicks on Teachers module.........................................passed
+And User clicks on Add Teacher..............................................passed
+And User enters "Dwight" in first name......................................passed
+And User enters "Schrute" in last name......................................passed
+And User enters "dwightschrute@dundermifflin.com" in email..................passed
+And User enters "01/01/2000" in joining date................................passed
+And User enters "6789" in password..........................................passed
+And User enters "Business" in subject.......................................passed
+And User enters "8475555678" in mobile number...............................passed
+And User selects "Male" in gender...........................................passed
+And User selects "English" in department....................................passed
+And User enters "08/15/1980" in birth date..................................passed
+And User enters "100000" in salary..........................................passed
+And User selects "12" in batch..............................................passed
+And User enters "Paper" in section..........................................passed
+And User enters "Scranton, PA" in permanent address.........................passed
+And User clicks on Submit button............................................passed
+Then User should be able to see created teacher displayed in the UI.........passed
+And Tester should be able to verify created teacher in the Database.........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
