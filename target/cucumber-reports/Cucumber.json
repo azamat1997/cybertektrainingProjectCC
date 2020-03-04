@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 4099379620,
+              "duration": 2971787047,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 170,
+        "line": 158,
         "name": "As a User I should able to create student",
         "description": "",
         "id": ";as-a-user-i-should-able-to-create-student;;2",
         "after": [
           {
             "result": {
-              "duration": 86046515,
+              "duration": 89952431,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 183839090,
+              "duration": 201479786,
               "status": "passed"
             },
-            "line": 143,
+            "line": 131,
             "name": "User click on Students module",
             "match": {
               "location": "CreateStudent_StepDefs.user_click_on_Students_module()"
@@ -46,10 +46,10 @@
           },
           {
             "result": {
-              "duration": 469549800,
+              "duration": 425305873,
               "status": "passed"
             },
-            "line": 144,
+            "line": 132,
             "name": "User click on Add student",
             "match": {
               "location": "CreateStudent_StepDefs.user_click_on_Add_student()"
@@ -58,10 +58,10 @@
           },
           {
             "result": {
-              "duration": 1142143342,
+              "duration": 1157839066,
               "status": "passed"
             },
-            "line": 145,
+            "line": 133,
             "name": "User enter \"John\" in first name",
             "match": {
               "arguments": [
@@ -76,10 +76,10 @@
           },
           {
             "result": {
-              "duration": 1093388802,
+              "duration": 1086946588,
               "status": "passed"
             },
-            "line": 146,
+            "line": 134,
             "name": "User enter \"Johnes\" in last name",
             "match": {
               "arguments": [
@@ -94,10 +94,10 @@
           },
           {
             "result": {
-              "duration": 1151542909,
+              "duration": 1155928574,
               "status": "passed"
             },
-            "line": 147,
+            "line": 135,
             "name": "User enter \"johnjohnes@gmail.com\" in email",
             "match": {
               "arguments": [
@@ -112,10 +112,10 @@
           },
           {
             "result": {
-              "duration": 150928335,
+              "duration": 159696852,
               "status": "passed"
             },
-            "line": 148,
+            "line": 136,
             "name": "User enter \"03/10/2018\" in joining date",
             "match": {
               "arguments": [
@@ -130,10 +130,10 @@
           },
           {
             "result": {
-              "duration": 108595133,
+              "duration": 106893487,
               "status": "passed"
             },
-            "line": 149,
+            "line": 137,
             "name": "User enter \"12345\" in password",
             "match": {
               "arguments": [
@@ -148,15 +148,15 @@
           },
           {
             "result": {
-              "duration": 73754498,
+              "duration": 86840355,
               "status": "passed"
             },
-            "line": 150,
-            "name": "User enter \"json\" in subject",
+            "line": 138,
+            "name": "User enter \"tttt\" in subject",
             "match": {
               "arguments": [
                 {
-                  "val": "\"json\"",
+                  "val": "\"tttt\"",
                   "offset": 11
                 }
               ],
@@ -166,15 +166,15 @@
           },
           {
             "result": {
-              "duration": 112351445,
+              "duration": 99261153,
               "status": "passed"
             },
-            "line": 151,
-            "name": "User enter \"3123127777\" in mobile number",
+            "line": 139,
+            "name": "User enter \"312312777\" in mobile number",
             "match": {
               "arguments": [
                 {
-                  "val": "\"3123127777\"",
+                  "val": "\"312312777\"",
                   "offset": 11
                 }
               ],
@@ -184,10 +184,10 @@
           },
           {
             "result": {
-              "duration": 103613170,
+              "duration": 106297120,
               "status": "passed"
             },
-            "line": 152,
+            "line": 140,
             "name": "User enter \"male\" in gender",
             "match": {
               "arguments": [
@@ -202,10 +202,10 @@
           },
           {
             "result": {
-              "duration": 96582413,
+              "duration": 94004297,
               "status": "passed"
             },
-            "line": 153,
+            "line": 141,
             "name": "User enter \"123\" in admission No",
             "match": {
               "arguments": [
@@ -220,10 +220,10 @@
           },
           {
             "result": {
-              "duration": 115462305,
+              "duration": 113715355,
               "status": "passed"
             },
-            "line": 154,
+            "line": 142,
             "name": "User enter \"12/12/1989\" in birth date",
             "match": {
               "arguments": [
@@ -238,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 107649740,
+              "duration": 108707702,
               "status": "passed"
             },
-            "line": 155,
+            "line": 143,
             "name": "User enter \"fighter\" in major",
             "match": {
               "arguments": [
@@ -256,10 +256,10 @@
           },
           {
             "result": {
-              "duration": 88554529,
+              "duration": 61861783,
               "status": "passed"
             },
-            "line": 156,
+            "line": 144,
             "name": "User enter \"1\" in batch",
             "match": {
               "arguments": [
@@ -274,10 +274,10 @@
           },
           {
             "result": {
-              "duration": 52034428,
+              "duration": 84390727,
               "status": "passed"
             },
-            "line": 157,
+            "line": 145,
             "name": "User enter \"2\" in section",
             "match": {
               "arguments": [
@@ -292,10 +292,10 @@
           },
           {
             "result": {
-              "duration": 148808084,
+              "duration": 148755534,
               "status": "passed"
             },
-            "line": 158,
+            "line": 146,
             "name": "User enter \"123 chicago street\" present address",
             "match": {
               "arguments": [
@@ -310,15 +310,15 @@
           },
           {
             "result": {
-              "duration": 128946413,
+              "duration": 104329493,
               "status": "passed"
             },
-            "line": 159,
-            "name": "User enter \"Johns inc\" compamy name",
+            "line": 147,
+            "name": "User enter \"Jonh inc\" compamy name",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Johns inc\"",
+                  "val": "\"Jonh inc\"",
                   "offset": 11
                 }
               ],
@@ -328,10 +328,10 @@
           },
           {
             "result": {
-              "duration": 77451464,
+              "duration": 85439994,
               "status": "passed"
             },
-            "line": 160,
+            "line": 148,
             "name": "User enter \"fighter\" in title",
             "match": {
               "arguments": [
@@ -346,10 +346,10 @@
           },
           {
             "result": {
-              "duration": 112447464,
+              "duration": 104962628,
               "status": "passed"
             },
-            "line": 161,
+            "line": 149,
             "name": "User enter \"02/02/2020\" start date",
             "match": {
               "arguments": [
@@ -364,10 +364,10 @@
           },
           {
             "result": {
-              "duration": 95032616,
+              "duration": 101724488,
               "status": "passed"
             },
-            "line": 162,
+            "line": 150,
             "name": "User enter \"chicago\" in city",
             "match": {
               "arguments": [
@@ -382,10 +382,10 @@
           },
           {
             "result": {
-              "duration": 117768723,
+              "duration": 120252326,
               "status": "passed"
             },
-            "line": 163,
+            "line": 151,
             "name": "User enter \"1223 chicago street\" in street",
             "match": {
               "arguments": [
@@ -400,10 +400,10 @@
           },
           {
             "result": {
-              "duration": 71118055,
+              "duration": 74672888,
               "status": "passed"
             },
-            "line": 164,
+            "line": 152,
             "name": "User enter \"60659\" in zipcode",
             "match": {
               "arguments": [
@@ -418,10 +418,10 @@
           },
           {
             "result": {
-              "duration": 67975680,
+              "duration": 66553193,
               "status": "passed"
             },
-            "line": 165,
+            "line": 153,
             "name": "User enter \"IL\" in state",
             "match": {
               "arguments": [
@@ -436,10 +436,10 @@
           },
           {
             "result": {
-              "duration": 54086314,
+              "duration": 79676108,
               "status": "passed"
             },
-            "line": 166,
+            "line": 154,
             "name": "User click to the Submit button",
             "match": {
               "location": "CreateStudent_StepDefs.user_click_to_the_Submit_button()"
@@ -461,481 +461,7 @@
     "description": "",
     "id": "",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/1.feature",
-    "tags": [
-      {
-        "name": "@COD-279",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 2464832686,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 176,
-        "name": "Add new student functionality",
-        "description": "",
-        "id": "student-and-teacher-creation/editing/deletion-verification;add-new-student-functionality;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 84343546,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 165283874,
-              "status": "passed"
-            },
-            "line": 149,
-            "name": "User click on Students module",
-            "match": {
-              "location": "CreateStudent_StepDefs.user_click_on_Students_module()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 937460431,
-              "status": "passed"
-            },
-            "line": 150,
-            "name": "User click on Add student",
-            "match": {
-              "location": "CreateStudent_StepDefs.user_click_on_Add_student()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1154832014,
-              "status": "passed"
-            },
-            "line": 151,
-            "name": "User enter \"John\" in first name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"John\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_first_name(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1088368954,
-              "status": "passed"
-            },
-            "line": 152,
-            "name": "User enter \"Johnes\" in last name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Johnes\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_last_name(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1150520329,
-              "status": "passed"
-            },
-            "line": 153,
-            "name": "User enter \"johnjohnes@gmail.com\" in email",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"johnjohnes@gmail.com\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_email(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 134650141,
-              "status": "passed"
-            },
-            "line": 154,
-            "name": "User enter \"03/10/2018\" in joining date",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"03/10/2018\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_joining_date(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 107747596,
-              "status": "passed"
-            },
-            "line": 155,
-            "name": "User enter \"12345\" in password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12345\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_password(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 69914408,
-              "status": "passed"
-            },
-            "line": 156,
-            "name": "User enter \"tttt\" in subject",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"tttt\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_subject(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 99558267,
-              "status": "passed"
-            },
-            "line": 157,
-            "name": "User enter \"312312777\" in mobile number",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"312312777\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_mobile_number(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 93451430,
-              "status": "passed"
-            },
-            "line": 158,
-            "name": "User enter \"male\" in gender",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"male\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_gender(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 81946625,
-              "status": "passed"
-            },
-            "line": 159,
-            "name": "User enter \"123\" in admission No",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"123\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_admission_No(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 114284096,
-              "status": "passed"
-            },
-            "line": 160,
-            "name": "User enter \"12/12/1989\" in birth date",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"12/12/1989\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_birth_date(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 105854710,
-              "status": "passed"
-            },
-            "line": 161,
-            "name": "User enter \"fighter\" in major",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"fighter\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_major(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67985198,
-              "status": "passed"
-            },
-            "line": 162,
-            "name": "User enter \"1\" in batch",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_batch(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 52023665,
-              "status": "passed"
-            },
-            "line": 163,
-            "name": "User enter \"2\" in section",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"2\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_section(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 142765538,
-              "status": "passed"
-            },
-            "line": 164,
-            "name": "User enter \"123 chicago street\" present address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"123 chicago street\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_present_address(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 109123445,
-              "status": "passed"
-            },
-            "line": 165,
-            "name": "User enter \"Jonh inc\" compamy name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Jonh inc\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_compamy_name(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 86857517,
-              "status": "passed"
-            },
-            "line": 166,
-            "name": "User enter \"fighter\" in title",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"fighter\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_title(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 104085211,
-              "status": "passed"
-            },
-            "line": 167,
-            "name": "User enter \"02/02/2020\" start date",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"02/02/2020\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_start_date(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 96264458,
-              "status": "passed"
-            },
-            "line": 168,
-            "name": "User enter \"chicago\" in city",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"chicago\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_city(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 114524101,
-              "status": "passed"
-            },
-            "line": 169,
-            "name": "User enter \"1223 chicago street\" in street",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"1223 chicago street\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_street(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72388300,
-              "status": "passed"
-            },
-            "line": 170,
-            "name": "User enter \"60659\" in zipcode",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"60659\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_zipcode(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 63444821,
-              "status": "passed"
-            },
-            "line": 171,
-            "name": "User enter \"IL\" in state",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"IL\"",
-                  "offset": 11
-                }
-              ],
-              "location": "CreateStudent_StepDefs.user_enter_in_state(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 56090437,
-              "status": "passed"
-            },
-            "line": 172,
-            "name": "User click to the Submit button",
-            "match": {
-              "location": "CreateStudent_StepDefs.user_click_to_the_Submit_button()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@COD-279"
-          },
-          {
-            "name": "@COD-273"
-          }
-        ]
-      }
-    ],
-    "name": "Student and Teacher creation/editing/deletion Verification",
-    "description": "",
-    "id": "student-and-teacher-creation/editing/deletion-verification",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/studentTeacher.feature",
+    "uri": "src/test/resources/features/1 (1).feature",
     "tags": [
       {
         "name": "@COD-279",

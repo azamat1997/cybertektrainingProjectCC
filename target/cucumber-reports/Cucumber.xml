@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="18.930659">
-    <testcase classname="" name="As a User I should able to create student" time="10.11122">
-        <system-out>
-            <![CDATA[When User click on Students module..........................................passed
-And User click on Add student...............................................passed
-And User enter "John" in first name.........................................passed
-And User enter "Johnes" in last name........................................passed
-And User enter "johnjohnes@gmail.com" in email..............................passed
-And User enter "03/10/2018" in joining date.................................passed
-And User enter "12345" in password..........................................passed
-And User enter "json" in subject............................................passed
-And User enter "3123127777" in mobile number................................passed
-And User enter "male" in gender.............................................passed
-And User enter "123" in admission No........................................passed
-And User enter "12/12/1989" in birth date...................................passed
-And User enter "fighter" in major...........................................passed
-And User enter "1" in batch.................................................passed
-And User enter "2" in section...............................................passed
-And User enter "123 chicago street" present address.........................passed
-And User enter "Johns inc" compamy name.....................................passed
-And User enter "fighter" in title...........................................passed
-And User enter "02/02/2020" start date......................................passed
-And User enter "chicago" in city............................................passed
-And User enter "1223 chicago street" in street..............................passed
-And User enter "60659" in zipcode...........................................passed
-And User enter "IL" in state................................................passed
-Then User click to the Submit button........................................passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Add new student functionality" time="8.819439">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.999898">
+    <testcase classname="" name="As a User I should able to create student" time="8.999898">
         <system-out>
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed

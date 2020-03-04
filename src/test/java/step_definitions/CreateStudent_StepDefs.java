@@ -23,7 +23,7 @@ public class CreateStudent_StepDefs {
 
     @When("User click on Add student")
     public void user_click_on_Add_student() {
-        homePage.AddStudent.click();
+        homePage.addStudent.click();
     }
 
 
