@@ -7,6 +7,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utilities.Config;
 import utilities.Driver;
+import utilities.TempStorage;
 
 public class Hooks {
 
@@ -15,6 +16,7 @@ public class Hooks {
     public void setUp(){
         //Anything you want to run before each scenario
         Driver.getDriver().get(Config.getProperty("trainingUrl"));
+        TempStorage.clear();
     }
 
     @After
