@@ -1,0 +1,296 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 260832,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 168,
+        "name": "Add new student functionality",
+        "description": "",
+        "id": ";add-new-student-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4299,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 25546,
+              "status": "skipped"
+            },
+            "line": 140,
+            "name": "User click on Students module",
+            "match": {
+              "location": "CreateStudent_StepDefs.user_click_on_Students_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5773,
+              "status": "skipped"
+            },
+            "line": 141,
+            "name": "User click on Add student",
+            "match": {
+              "location": "CreateStudent_StepDefs.user_click_on_Add_student()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 142,
+            "name": "User enter \"John\" in first name",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 143,
+            "name": "User enter \"Johnes\" in last name",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 144,
+            "name": "User enter \"johnjohnes@gmail.com\" in email",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 145,
+            "name": "User enter \"03/10/2018\" in joining date",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 146,
+            "name": "User enter \"12345\" in password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 147,
+            "name": "User enter \"12345\" in comfirm password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 148,
+            "name": "User enter \"tttt\" in subject",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 149,
+            "name": "User enter \"312312777\" in mobile number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 150,
+            "name": "User enter \"male\" in gender",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 151,
+            "name": "User enter \"123\" in admission No",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 152,
+            "name": "User enter \"12/12/1989\" in birth date",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 153,
+            "name": "User enter \"fighter\" in major",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 154,
+            "name": "User enter \"1\" in batch",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 155,
+            "name": "User enter \"2\" in section",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 156,
+            "name": "User enter \"123 chicago street\" present address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 157,
+            "name": "User enter \"Jonh inc\" compamy name",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 158,
+            "name": "User enter \"fighter\" in title",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 159,
+            "name": "User enter \"02/02/2020\" start date",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 160,
+            "name": "User enter \"chicago\" in city",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 161,
+            "name": "User enter \"1223 chicago street\" in street",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 162,
+            "name": "User enter \"60659\" in zipcode",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 163,
+            "name": "User enter \"IL\" in state",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5515,
+              "status": "skipped"
+            },
+            "line": 164,
+            "name": "User click to the Submit button",
+            "match": {
+              "location": "CreateStudent_StepDefs.user_click_to_the_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@COD-279"
+          },
+          {
+            "name": "@COD-273"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/1 (1).feature",
+    "tags": [
+      {
+        "name": "@COD-279",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
