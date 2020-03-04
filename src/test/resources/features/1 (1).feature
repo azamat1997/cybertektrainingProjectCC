@@ -1,33 +1,33 @@
 @COD-279
-Feature: Student and Teacher creation/editing/deletion Verification
+Feature: 
 
 	
 	@COD-278
 	Scenario Outline: Verify Create Teacher Functionality
-		When User clicks on Teachers module
-		And User clicks on Add Teacher
-		And User enters "<First name>" in first name
-		And User enters "<Last name>" in last name
-		And User enters "<Email>" in email
-		And User enters "<Joining Date>" in joining date
-		And User enters "<Password>" in password
-		And User enters "<Subject>" in subject
-		And User enters "<Mobile number>" in mobile number
-		And User selects "<Gender>" in gender
-		And User selects "<Department>" in department
-		And User enters "<Birth Date>" in birth date
-		And User enters "<Salary>" in salary
-		And User selects "<Batch>" in batch
-		And User enters "<Section>" in section
-		And User enters "<Permanent Address>" in permanent address
-		And User clicks on Submit button
-		Then User should be able to see created teacher displayed in the UI
-		And Tester should be able to verify created teacher in the Database
-
-		Examples:
-		| First name | Last name | Email                           | Joining Date | Password | Subject  | Mobile number | Gender | Department | Birth Date | Salary | Batch | Section | Permanent Address |
-		| Dwight     | Schrute   | dwightschrute@dundermifflin.com | 01/01/2000   | 6789     | Business | 8475555678  | Male   | English    | 08/15/1980 | 80000 | 12    | Paper   | Scranton, PA      |
-
+		            When User clicks on Teachers module
+				    And User clicks on Add Teacher
+				    And User enters "<First name>" in first name
+				    And User enters "<Last name>" in last name
+				    And User enters "<Email>" in email
+				    And User enters "<Joining Date>" in joining date
+				    And User enters "<Password>" in password
+				    And User enters "<Subject>" in subject
+				    And User enters "<Mobile number>" in mobile number
+				    And User selects "<Gender>" in gender
+				    And User selects "<Department>" in department
+				    And User enters "<Birth Date>" in birth date
+				    And User enters "<Salary>" in salary
+				    And User selects "<Batch>" in batch
+				    And User enters "<Section>" in section
+				    And User enters "<Permanent Address>" in permanent address
+				    And User clicks on Submit button
+				    Then User should be able to see created teacher displayed in the UI
+				    And Tester should be able to verify created teacher in the Database
+					
+					Examples:
+						|First name|Last name|Email|Joining Date|Password|Subject|Mobile number|Gender|Department|Birth Date|Salary|Batch|Section|Permanent Address|
+				    |Dwight|Schrute|dwightschrute@dundermifflin.com| 01/01/2000 | 6789 |Business| 8475555678 |Male|English| 08/15/1980 | 80000 | 12 |Paper|Scranton, PA|
+			
 
 	
 	@COD-274
@@ -107,45 +107,27 @@ Feature: Student and Teacher creation/editing/deletion Verification
 
 	
 	@COD-276
-	Scenario Outline: verify update student functionality
+	Scenario Outline: Verify update student functionality
 		   When User clicks on student module
 		   And User clicks on All Students
-		   And User clicks "<Firstname>" in first name box
-		   And User clicks "<Lastname>" in last name box
-		   And User clicks "<Email>" in email box
-		   And User clicks "<Joining Date>" in joining date box
-		   And User clicks "<Password>" in password box
-		   And User clicks "<Subject>"in subject box
-		   And User clicks "<Mobile number>"in mobile number box
-		   And User clicks "<Gender>" in gender
-		   And User clicks "<Admission No>" in admission no
-		   And User clicks "<Gender>" in gender
-		   And User clicks "<Admission No>" admission number
-		   And User clicks "<Birth Date>" in birth date
-		   And User clicks "<Major>" in major
-		   And User clicks "<Batch>" in batch
-		   And User clicks "<Section>" in section
-		   And User clicks "<Premanent Address>" in permanent address
-		   And User clicks "<Company Name>" in company name
-		   And User clicks "<Title>" in title
-		   And User clicks "<Start Date>" in start date
-		   And User clicks "<City>" in city
-		   And User clicks "<Street>" in street
-		   And User clicks "<ZipCode>" in zip code
-		   And User clicks "<State>" in state
+		   And User clicks on three dots of Chuck profile
+		   And User clicks edit button in dropdown box
+		   And User edits "<Email>" in email
+		   And User edits "<Mobile number>"in mobile number
+		   And User edits "<Birth Date>" in birth date
 		   And User clicks submit button
-		   Then User should be able to see created student displayed in the UI
-		   And User should be able to verify created student in Database
-
+		   Then User should be able to see edited student displayed in the UI
+		   And Tester should be able to verify edited student in Database
+		   
 		Examples:
-		  | Firstname | Lastname | Email              | Joining Date | Password | Subject          | Mobile number | Gender | Admission No | Birth Date | Major  | Batch | Section | Premanent Address               | Company Name | Title  | Start Date | City   | Street          | ZipCode | State |
-		  | Chuck     | Norris   | Chuckie@norris.com | 03/01/2020   | chuckie  | round house kick | 5015015015    | Male   | 123          | 03/01/2020 | Ranger | 1     | 2       | 123 no street no where IL 60018 | chuckie inc  | Ranger | 03/01/2020 | Dallas | 1 Dallas street | 12345   | Ar    |
-
-
+		  | Email              |  Mobile number | Birth Date |      
+		  |Chuckienorris@.com  | 5015015015    | 03/01/1960| 
+		
+			
 
 	
 	@COD-273
-		  Scenario Outline: Add new student functionality
+	Scenario Outline: As a User I should able to create student
 		    When User click on Students module
 		    And User click on Add student
 		    And User enter "<Firstname>" in first name 
@@ -153,7 +135,6 @@ Feature: Student and Teacher creation/editing/deletion Verification
 		    And User enter "<Email>" in email 
 		    And User enter "<Joining Date>" in joining date 
 		    And User enter "<Password>" in password 
-		    And User enter "<Comfirm Password>" in comfirm password 
 		    And User enter "<Subject>" in subject
 		    And User enter "<Mobile number>" in mobile number
 		    And User enter "<Gender>" in gender
@@ -175,51 +156,6 @@ Feature: Student and Teacher creation/editing/deletion Verification
 		   Examples:
 		     | Firstname | Lastname | Email               |Joining Date|Password|Comfirm Password|Subject|Mobile number|Gender|Admission No|Birth Date|Major  |Batch|Section|Present Address   |Company Name|Title   |Start Date|City   |Street (123 N. California, Apt 1)|ZipCode|State|
 		     | John      | Johnes   | johnjohnes@gmail.com| 03/10/2018 |12345   |12345           |tttt   |312312777    |male  |123         |12/12/1989|fighter|1    |2      |123 chicago street|Jonh inc    |fighter |02/02/2020|chicago|1223 chicago street              | 60659 |IL   |
-		 @COD-280
-		 Scenario Outline: Verifying Adding New Teacher Functionality
+		 	
 
-			 When User clicks to Teacher Field
-
-			 And User clicks to Add Teacher field
-
-			 And User types "<First name>" in to first name field
-
-			 And User types "<Last name> " in to last name field
-
-			 And User types  "<Email address>" in to email field
-
-			 And User types "<Joining date >" in to join date field
-
-			 And User types "< Password>" in to password field
-
-			 And User types "<Subject>" in to subject field
-
-			 And User types "< Mobile number >" in to mobile number field
-
-			 And User selects "<Gender >" from Gender dropdown
-
-			 And User selects "<Department>" from Department dropdown
-
-			 And User types "<Birth Date>" in to Birth date field
-
-			 And User types "< Salary >" in to Salary field
-
-			 And User selects "<Batch>" in to batch field
-
-			 And User types "<Section>" in to section field
-
-			 And User types "<Address> " in to permanent address field
-
-			 And User clicks the submit button
-
-			 Then User should be able to verify that her name is displayed in the teacher list
-
-			 And Tester should be able to verify the new teacher's name is on the database
-
-
-
-			 Examples:
-
-				 |First name|Last name|Email address  |Joining date|Password|Subject|Mobile number|Gender|Department    |Birth Date|Batch|Section|Permanent Address|
-				 |Grace	   |Kelly	 |gkell@gmail.com| 3/2/2020	  | 12345   |Wars   | 123456778  |Female|Social Studies|2/3/1980  | 12	| 3	    | 123 Main St IL  |
-
+	

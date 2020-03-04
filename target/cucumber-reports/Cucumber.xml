@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.010235">
-    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verifying Adding New Teacher Functionality" time="0.010235">
-        <skipped>
-            <![CDATA[When User clicks to Teacher Field...........................................skipped
-And User clicks to Add Teacher field........................................skipped
-And User types "Grace" in to first name field...............................skipped
-And User types "Kelly " in to last name field...............................skipped
-And User types  "gkell@gmail.com" in to email field.........................skipped
-And User types "<Joining date >" in to join date field......................skipped
-And User types "< Password>" in to password field...........................skipped
-And User types "Wars" in to subject field...................................skipped
-And User types "< Mobile number >" in to mobile number field................skipped
-And User selects "<Gender >" from Gender dropdown...........................skipped
-And User selects "Social Studies" from Department dropdown..................skipped
-And User types "2/3/1980" in to Birth date field............................skipped
-And User types "< Salary >" in to Salary field..............................skipped
-And User selects "12" in to batch field.....................................skipped
-And User types "3" in to section field......................................skipped
-And User types "<Address> " in to permanent address field...................skipped
-And User clicks the submit button...........................................skipped
-Then User should be able to verify that her name is displayed in the teacher list.undefined
-And Tester should be able to verify the new teacher's name is on the database.skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.999898">
+    <testcase classname="" name="As a User I should able to create student" time="8.999898">
+        <system-out>
+            <![CDATA[When User click on Students module..........................................passed
+And User click on Add student...............................................passed
+And User enter "John" in first name.........................................passed
+And User enter "Johnes" in last name........................................passed
+And User enter "johnjohnes@gmail.com" in email..............................passed
+And User enter "03/10/2018" in joining date.................................passed
+And User enter "12345" in password..........................................passed
+And User enter "tttt" in subject............................................passed
+And User enter "312312777" in mobile number.................................passed
+And User enter "male" in gender.............................................passed
+And User enter "123" in admission No........................................passed
+And User enter "12/12/1989" in birth date...................................passed
+And User enter "fighter" in major...........................................passed
+And User enter "1" in batch.................................................passed
+And User enter "2" in section...............................................passed
+And User enter "123 chicago street" present address.........................passed
+And User enter "Jonh inc" compamy name......................................passed
+And User enter "fighter" in title...........................................passed
+And User enter "02/02/2020" start date......................................passed
+And User enter "chicago" in city............................................passed
+And User enter "1223 chicago street" in street..............................passed
+And User enter "60659" in zipcode...........................................passed
+And User enter "IL" in state................................................passed
+Then User click to the Submit button........................................passed
 ]]>
-        </skipped>
+        </system-out>
     </testcase>
 </testsuite>

@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
                 "html:target/cucumber-reports"},
         features = "src/test/resources/features/",
         glue = "step_definitions",
-        dryRun = true,
-        tags = "@COD-280"   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
+        dryRun = false,
+        tags = "@COD-273"   // we can pass more than one tag, ex: tags = "@smokeTest, @regressionTest"
 )
 
 
