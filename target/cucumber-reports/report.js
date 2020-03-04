@@ -130,7 +130,7 @@ formatter.examples({
         "Male",
         "English",
         "08/15/1980",
-        "100000",
+        "80000",
         "12",
         "Paper",
         "Scranton, PA"
@@ -275,7 +275,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters \"100000\" in salary",
+  "name": "User enters \"80000\" in salary",
   "keyword": "And "
 });
 formatter.match({
