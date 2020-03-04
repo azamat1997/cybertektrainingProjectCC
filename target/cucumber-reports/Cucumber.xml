@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0.00332">
-    <testcase classname="" name="Add new student functionality" time="0.00332">
-        <skipped>
-            <![CDATA[When User click on Students module..........................................skipped
-And User click on Add student...............................................skipped
-And User enter "John" in first name.........................................undefined
-And User enter "Johnes" in last name........................................undefined
-And User enter "johnjohnes@gmail.com" in email..............................undefined
-And User enter "03/10/2018" in joining date.................................undefined
-And User enter "12345" in password..........................................undefined
-And User enter "12345" in comfirm password..................................undefined
-And User enter "tttt" in subject............................................undefined
-And User enter "312312777" in mobile number.................................undefined
-And User enter "male" in gender.............................................undefined
-And User enter "123" in admission No........................................undefined
-And User enter "12/12/1989" in birth date...................................undefined
-And User enter "fighter" in major...........................................undefined
-And User enter "1" in batch.................................................undefined
-And User enter "2" in section...............................................undefined
-And User enter "123 chicago street" present address.........................undefined
-And User enter "Jonh inc" compamy name......................................undefined
-And User enter "fighter" in title...........................................undefined
-And User enter "02/02/2020" start date......................................undefined
-And User enter "chicago" in city............................................undefined
-And User enter "1223 chicago street" in street..............................undefined
-And User enter "60659" in zipcode...........................................undefined
-And User enter "IL" in state................................................undefined
-Then User click to the Submit button........................................skipped
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.317335">
+    <testcase classname="Student and Teacher creation/editing/deletion Verification" name="Verify Create Teacher Functionality" time="18.317335">
+        <system-out>
+            <![CDATA[When User clicks on Teachers module.........................................passed
+And User clicks on Add Teacher..............................................passed
+And User enters "Dwight" in first name......................................passed
+And User enters "Schrute" in last name......................................passed
+And User enters "dwightschrute@dundermifflin.com" in email..................passed
+And User enters "01/01/2000" in joining date................................passed
+And User enters "6789" in password..........................................passed
+And User enters "Business" in subject.......................................passed
+And User enters "8475555678" in mobile number...............................passed
+And User selects "Male" in gender...........................................passed
+And User selects "English" in department....................................passed
+And User enters "08/15/1980" in birth date..................................passed
+And User enters "80000" in salary...........................................passed
+And User selects "12" in batch..............................................passed
+And User enters "Paper" in section..........................................passed
+And User enters "Scranton, PA" in permanent address.........................passed
+And User clicks on Submit button............................................passed
+Then User should be able to see created teacher displayed in the UI.........passed
+And Tester should be able to verify created teacher in the Database.........passed
 ]]>
-        </skipped>
+        </system-out>
     </testcase>
 </testsuite>
