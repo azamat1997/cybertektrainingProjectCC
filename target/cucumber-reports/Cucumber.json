@@ -1,0 +1,374 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9816489300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Verify Create Teacher Functionality",
+        "description": "",
+        "id": "student-and-teacher-creation/editing/deletion-verification;verify-create-teacher-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 683204200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 218167100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Teachers module",
+            "match": {
+              "location": "CreateTeacher_StepDefs.user_clicks_on_Teachers_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 487876000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Add Teacher",
+            "match": {
+              "location": "CreateTeacher_StepDefs.user_clicks_on_Add_Teacher()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113435600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"Dwight\" in first name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dwight\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_first_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098170800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters \"Schrute\" in last name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Schrute\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_last_name(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1842503200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters \"dwightschrute@dundermifflin.com\" in email",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"dwightschrute@dundermifflin.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_email(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375934600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters \"01/01/2000\" in joining date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01/01/2000\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_joining_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307895400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"6789\" in password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6789\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 353806200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Business\" in subject",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Business\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_subject(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2348928100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"8475555678\" in mobile number",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8475555678\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_mobile_number(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328065500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User selects \"Male\" in gender",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Male\"",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_selects_in_gender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341089300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User selects \"English\" in department",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"English\"",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_selects_in_department(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222114000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"08/15/1980\" in birth date",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"08/15/1980\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_birth_date(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320679200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"100000\" in salary",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"100000\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_salary(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397605800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User selects \"12\" in batch",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 13
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_selects_in_batch(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289423400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"Paper\" in section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Paper\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_section(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473190000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"Scranton, PA\" in permanent address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scranton, PA\"",
+                  "offset": 12
+                }
+              ],
+              "location": "CreateTeacher_StepDefs.user_enters_in_permanent_address(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214710000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on Submit button",
+            "match": {
+              "location": "CreateTeacher_StepDefs.user_clicks_on_Submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447449100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able to see created teacher displayed in the UI",
+            "match": {
+              "location": "CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Tester should be able to verify created teacher in the Database",
+            "match": {
+              "location": "CreateTeacher_StepDefs.tester_should_be_able_to_verify_created_teacher_in_the_Database()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@COD-279"
+          },
+          {
+            "name": "@COD-278"
+          }
+        ]
+      }
+    ],
+    "name": "Student and Teacher creation/editing/deletion Verification",
+    "description": "",
+    "id": "student-and-teacher-creation/editing/deletion-verification",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/studentTeacher.feature",
+    "tags": [
+      {
+        "name": "@COD-279",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
