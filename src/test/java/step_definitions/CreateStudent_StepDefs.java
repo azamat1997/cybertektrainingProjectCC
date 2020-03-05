@@ -3,12 +3,18 @@ package step_definitions;
 import cucumber.api.java.bs.A;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 import pages.AddStudentPage;
 import pages.AllStudentsPage;
 import pages.HomePage;
+import utilities.DBUtility;
 import utilities.SeleniumUtils;
 import utilities.TempStorage;
+
+import java.sql.SQLException;
+import java.util.List;
+import java.util.Map;
 
 public class CreateStudent_StepDefs {
     HomePage homePage = new HomePage();
@@ -192,10 +198,35 @@ public class CreateStudent_StepDefs {
     }
     @Then("User click to the Submit button")
     public void user_click_to_the_Submit_button() {
+
         addStudentPage.studentSubmitButton.click();
     }
 
+    @Then("User should be able to see created student displayed in the UI")
+    public void user_should_be_able_to_see_created_student_displayed_in_the_UI() {
+        Assert.assertTrue("Student's name is not found on this page", allStudentsPage.studentFirstNameLocator(TempStorage.getData("studentFirstName")).isDisplayed());
+    }
 
+    @Then("Tester should be able to verify created student in the Database")
+    public void tester_should_be_able_to_verify_created_student_in_the_Database() {
 
+        try {
+            DBUtility.createConnection();
+            List<Map<Object, Object>> data = DBUtility.executionQuery("select first_name from student");
+            DBUtility.close();
+
+            for(Map<Object, Object> map: data){
+                if(map.containsValue(TempStorage.getData("studentFirstName"))){
+                    Assert.assertTrue("No matching record found. Verification FAILED", map.containsValue(TempStorage.getData("studentFirstName")));
+                    return;
+                }
+                Assert.fail();
+            }
+
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+    }
 
 }
