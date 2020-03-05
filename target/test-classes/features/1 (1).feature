@@ -32,7 +32,7 @@ Feature:
 	
 	@COD-274
 	Scenario Outline: Verify Update Teacher functionality
-		When User click on 3dots button on Christian teacher
+		When User click on threedots button on Christian teacher
 		And User click on Edit button
 		And User edit "<Firstname>" in first name 
 		And User edit "<Lastname>" in last name
@@ -54,8 +54,8 @@ Feature:
 		
 		Examples:
 		|Firstname|Lastname|Email       | JoiningDate| Password|Subject|MobileNumber|Gender|Department| BirthDate  | Salary|Batch|Section|PresentAdress|
-		|Macarena |John    |mcjo@xxx.com| 01/01/2020 | 43212   |   HR  | 0987654321 |Female|Science   | 01/01/2001 | 5000  |2    | Auto   | 2ndAvenue  |
-		|Cocolero |Coco    |coco@aaa.com| 22/12/2020 | 44444   |   PP  | 5555555555 |Male  |English   | 11/11/2002 | 33000 |5    | Java   | 8thAvenue  |
+		|Macarena |John    |mcjo@xxx.com| 01/01/2020 | 43212   |   HR  | 0987654321 |Female|Science   | 01/01/2001 | 125 000  |2    | Auto   | 2ndAvenue  |
+
 		
 		    	
 
