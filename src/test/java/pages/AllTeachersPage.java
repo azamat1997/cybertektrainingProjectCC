@@ -15,6 +15,18 @@ public class AllTeachersPage {
     @FindBy(xpath = "//a[.=' Add Teacher']")
     public WebElement addTeacherButton;
 
+    @FindBy(xpath = "(//input[@type=\"text\"])[2]")
+    public WebElement teacherNameArea;
+
+    @FindBy(xpath = "//a[@class=\"btn btn-success btn-block mt-4 mb-2\"]")
+    public WebElement searchButton;
+
+    @FindBy (linkText = "Grace")
+    public WebElement newName;
+
+    @FindBy(xpath = "//a[@class=\"avatar\"]")
+    public WebElement gracesArea;
+
     public WebElement teacherFirstNameLocator(String name){
         return Driver.getDriver().findElement(By.xpath("//a[.='"+ name + "']"));
     }
