@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6655332500,
+              "duration": 2541756071,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 29,
-        "name": "Verify Create Teacher Functionality",
+        "line": 57,
+        "name": "Verify Update Teacher functionality",
         "description": "",
-        "id": "student-and-teacher-creation/editing/deletion-verification;verify-create-teacher-functionality;;2",
+        "id": "student-and-teacher-creation/editing/deletion-verification;verify-update-teacher-functionality;;2",
         "after": [
           {
             "result": {
-              "duration": 742746700,
+              "duration": 80619709,
               "status": "passed"
             },
             "match": {
@@ -34,313 +34,313 @@
         "steps": [
           {
             "result": {
-              "duration": 230228600,
+              "duration": 5599116272,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User clicks on Teachers module",
+            "line": 35,
+            "name": "User click on threedots button on Christian teacher",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Teachers_module()"
+              "location": "EditTeacher_StepDefs.user_click_on_threedots_button_on_Christian_teacher()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 617500400,
+              "duration": 2232870707,
               "status": "passed"
             },
-            "line": 8,
-            "name": "User clicks on Add Teacher",
+            "line": 36,
+            "name": "User click on Edit button",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Add_Teacher()"
+              "location": "EditTeacher_StepDefs.userClickOnEditButton()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1326877200,
+              "duration": 2154915852,
               "status": "passed"
             },
-            "line": 9,
-            "name": "User enters \"Dwight\" in first name",
+            "line": 37,
+            "name": "User edit \"Macarena\" in first name",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Dwight\"",
-                  "offset": 12
+                  "val": "\"Macarena\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_first_name(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_first_name(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1377904500,
+              "duration": 2095958225,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User enters \"Schrute\" in last name",
+            "line": 38,
+            "name": "User edit \"John\" in last name",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Schrute\"",
-                  "offset": 12
+                  "val": "\"John\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_last_name(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_last_name(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1471159200,
+              "duration": 2128395304,
               "status": "passed"
             },
-            "line": 11,
-            "name": "User enters \"dwightschrute@dundermifflin.com\" in email",
+            "line": 39,
+            "name": "User edit \"mcjo@xxx.com\" in email",
             "match": {
               "arguments": [
                 {
-                  "val": "\"dwightschrute@dundermifflin.com\"",
-                  "offset": 12
+                  "val": "\"mcjo@xxx.com\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_email(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_email(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 223641800,
+              "duration": 2120745926,
               "status": "passed"
             },
-            "line": 12,
-            "name": "User enters \"01/01/2000\" in joining date",
+            "line": 40,
+            "name": "User edit \"01/01/2020\" in joining date calendar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"01/01/2000\"",
-                  "offset": 12
+                  "val": "\"01/01/2020\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_joining_date(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_joining_date_calendar(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 147175500,
+              "duration": 2114382280,
               "status": "passed"
             },
-            "line": 13,
-            "name": "User enters \"6789\" in password",
+            "line": 41,
+            "name": "User edit \"43212\" in password",
             "match": {
               "arguments": [
                 {
-                  "val": "\"6789\"",
-                  "offset": 12
+                  "val": "\"43212\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_password(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_password(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 137465800,
+              "duration": 2090574433,
               "status": "passed"
             },
-            "line": 14,
-            "name": "User enters \"Business\" in subject",
+            "line": 42,
+            "name": "User edit \"HR\" in subject",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Business\"",
-                  "offset": 12
+                  "val": "\"HR\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_subject(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_subject(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2167553500,
+              "duration": 2113315157,
               "status": "passed"
             },
-            "line": 15,
-            "name": "User enters \"8475555678\" in mobile number",
+            "line": 43,
+            "name": "User edit \"0987654321\" in mobile number",
             "match": {
               "arguments": [
                 {
-                  "val": "\"8475555678\"",
-                  "offset": 12
+                  "val": "\"0987654321\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_mobile_number(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_mobile_number(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 137513900,
+              "duration": 120070115,
               "status": "passed"
             },
-            "line": 16,
-            "name": "User selects \"Male\" in gender",
+            "line": 44,
+            "name": "User edit \"Female\" in gender",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Male\"",
-                  "offset": 13
+                  "val": "\"Female\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_gender(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_gender(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 178559200,
+              "duration": 96385043,
               "status": "passed"
             },
-            "line": 17,
-            "name": "User selects \"English\" in department",
+            "line": 45,
+            "name": "User edit \"Science\" in department dropdown",
             "match": {
               "arguments": [
                 {
-                  "val": "\"English\"",
-                  "offset": 13
+                  "val": "\"Science\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_department(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_department_dropdown(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 225999500,
+              "duration": 114426111,
               "status": "passed"
             },
-            "line": 18,
-            "name": "User enters \"08/15/1980\" in birth date",
+            "line": 46,
+            "name": "User edit \"01/01/2001\" in birth date calendar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"08/15/1980\"",
-                  "offset": 12
+                  "val": "\"01/01/2001\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_birth_date(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_birth_date_calendar(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 267892600,
+              "duration": 2182941146,
               "status": "passed"
             },
-            "line": 19,
-            "name": "User enters \"80000\" in salary",
+            "line": 47,
+            "name": "User edit \"125 000\" in salary",
             "match": {
               "arguments": [
                 {
-                  "val": "\"80000\"",
-                  "offset": 12
+                  "val": "\"125 000\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_salary(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_salary(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 191251300,
+              "duration": 2072997201,
               "status": "passed"
             },
-            "line": 20,
-            "name": "User selects \"12\" in batch",
+            "line": 48,
+            "name": "User edit \"2\" in batch",
             "match": {
               "arguments": [
                 {
-                  "val": "\"12\"",
-                  "offset": 13
+                  "val": "\"2\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_selects_in_batch(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_batch(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 186371700,
+              "duration": 2063625742,
               "status": "passed"
             },
-            "line": 21,
-            "name": "User enters \"Paper\" in section",
+            "line": 49,
+            "name": "User edit \"Auto\" in section",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Paper\"",
-                  "offset": 12
+                  "val": "\"Auto\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_section(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_section(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 258838900,
+              "duration": 2100730533,
               "status": "passed"
             },
-            "line": 22,
-            "name": "User enters \"Scranton, PA\" in permanent address",
+            "line": 50,
+            "name": "User edit \"2ndAvenue\" in present adress",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Scranton, PA\"",
-                  "offset": 12
+                  "val": "\"2ndAvenue\"",
+                  "offset": 10
                 }
               ],
-              "location": "CreateTeacher_StepDefs.user_enters_in_permanent_address(String)"
+              "location": "EditTeacher_StepDefs.user_edit_in_present_adress(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 121988200,
+              "duration": 4090870717,
               "status": "passed"
             },
-            "line": 23,
-            "name": "User clicks on Submit button",
+            "line": 51,
+            "name": "User click Submit button",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_clicks_on_Submit_button()"
+              "location": "EditTeacher_StepDefs.user_click_Submit_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 631008300,
+              "duration": 76589,
               "status": "passed"
             },
-            "line": 24,
-            "name": "User should be able to see created teacher displayed in the UI",
+            "line": 52,
+            "name": "User should see the edited profile displayed in the UI",
             "match": {
-              "location": "CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI()"
+              "location": "EditTeacher_StepDefs.user_should_see_the_edited_profile_displayed_in_the_UI()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1016946500,
+              "duration": 26469,
               "status": "passed"
             },
-            "line": 25,
-            "name": "Tester should be able to verify created teacher in the Database",
+            "line": 53,
+            "name": "Tester should be able to veryfy the edited Teacher in DataBase",
             "match": {
-              "location": "CreateTeacher_StepDefs.tester_should_be_able_to_verify_created_teacher_in_the_Database()"
+              "location": "EditTeacher_StepDefs.tester_should_be_able_to_veryfy_the_edited_Teacher_in_DataBase()"
             },
             "keyword": "And "
           }
@@ -350,7 +350,7 @@
             "name": "@COD-279"
           },
           {
-            "name": "@COD-278"
+            "name": "@COD-274"
           }
         ]
       }
