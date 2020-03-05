@@ -204,6 +204,6 @@ Feature:
 		Examples:
 
 			|First name|Last name|Email address  |Joining date|Password|Subject|Mobile number|Gender|Department    |Birth Date|Salary  |Batch|Section|Permanent Address|
-			|Grace	   |Kelly	 |gkell@gmail.com| 3/2/2020	  | 12345   |Wars   | 123456778  |Female|Social Studies|2/3/1980  | 120000 | 12	 | 3	 | 123 Main St IL  |
+			|Grace	   |Kelly	 |gkell@gmail.com| 3/2/2020	  | 123456   |World Wars   | 123456778  |Female|Social Studies|2/3/1980  | 120000 | 12	 | 3	 | 123 Main St IL  |
 
 
