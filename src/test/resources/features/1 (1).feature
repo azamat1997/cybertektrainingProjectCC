@@ -152,6 +152,8 @@ Feature:
 		    And User enter "<ZipCode>" in zipcode
 		    And User enter "<State>" in state
 		    Then User click to the Submit button
+			Then User should be able to see created student displayed in the UI
+			And Tester should be able to verify created student in the Database
 		    
 		   Examples:
 		     | Firstname | Lastname | Email               |Joining Date|Password|Comfirm Password|Subject|Mobile number|Gender|Admission No|Birth Date|Major  |Batch|Section|Present Address   |Company Name|Title   |Start Date|City   |Street (123 N. California, Apt 1)|ZipCode|State|
