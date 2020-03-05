@@ -9,6 +9,6 @@ public class MyProfilePage {
     public MyProfilePage() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
-    @FindBy(xpath = "//a[.='624']")
+    @FindBy(xpath = "//a[.='646']")
     public WebElement teacherId;
 }
