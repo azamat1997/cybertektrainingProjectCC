@@ -176,18 +176,13 @@ public class Adding_Teacher_StepDefs {
 
         try {
             DBUtility.createConnection();
-            List<Map<Object, Object>> data = DBUtility.executionQuery("select first_name from teacher");
+            List<Map<Object, Object>> data = DBUtility.executionQuery("select FIRST_NAME from teacher where TEACHER_ID = 646");
             DBUtility.close();
             //String expected = "Grace";
 
             for(Map<Object, Object> datas: data){
-                if(datas.get("FIRST_NAME").toString().equalsIgnoreCase("Grace")){
-                    System.out.println("Verification passed ,data is :" + datas.get("FIRST_NAME").toString());
-                    break;
-
-                }else{
-                    System.out.println("Verification failed");
-                }
+                System.out.println(datas.get("FIRST_NAME").toString());
+                Assert.assertTrue(datas.get("FIRST_NAME").toString().equalsIgnoreCase("GRACE"));
 
                 }
 

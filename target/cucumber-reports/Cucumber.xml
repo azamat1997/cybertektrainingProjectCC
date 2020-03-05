@@ -1,41 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.138372">
-    <testcase classname="" name="As a User I should able to create student" time="17.138372">
-        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#10;&#9;at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)&#10;&#9;at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/1 (1).feature:156)&#10;">
-            <![CDATA[When User click on Students module..........................................passed
-And User click on Add student...............................................passed
-And User enter "John" in first name.........................................passed
-And User enter "Johnes" in last name........................................passed
-And User enter "johnjohnes@gmail.com" in email..............................passed
-And User enter "03/10/2018" in joining date.................................passed
-And User enter "12345" in password..........................................passed
-And User enter "tttt" in subject............................................passed
-And User enter "312312777" in mobile number.................................passed
-And User enter "male" in gender.............................................passed
-And User enter "123" in admission No........................................passed
-And User enter "12/12/1989" in birth date...................................passed
-And User enter "fighter" in major...........................................passed
-And User enter "1" in batch.................................................passed
-And User enter "2" in section...............................................passed
-And User enter "123 chicago street" present address.........................passed
-And User enter "Jonh inc" compamy name......................................passed
-And User enter "fighter" in title...........................................passed
-And User enter "02/02/2020" start date......................................passed
-And User enter "chicago" in city............................................passed
-And User enter "1223 chicago street" in street..............................passed
-And User enter "60659" in zipcode...........................................passed
-And User enter "IL" in state................................................passed
-Then User click to the Submit button........................................passed
-Then User should be able to see created student displayed in the UI.........passed
-And Tester should be able to verify created student in the Database.........failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.fail(Assert.java:95)
-	at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)
-	at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/1 (1).feature:156)
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.176632">
+    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.176632">
+        <system-out>
+            <![CDATA[When User clicks to Teacher Field...........................................passed
+And User clicks to Add Teacher field........................................passed
+And User types "Grace" in to first name field...............................passed
+And User types "Kelly " in to last name field...............................passed
+And User types  "gkell@gmail.com" in to email field.........................passed
+And User types "3/2/2008" in to join date field.............................passed
+And User types "123456" in to password field................................passed
+And User types "World Wars" in to subject field.............................passed
+And User types "123456778" in to mobile number field........................passed
+And User selects "Female" from Gender dropdown..............................passed
+And User selects "Social Studies" from Department dropdown..................passed
+And User types "2/3/1980" in to Birth date field............................passed
+And User types "0" in to Salary field.......................................passed
+And User selects "12" in to batch field.....................................passed
+And User types "3" in to section field......................................passed
+And User types "123 Main St IL " in to permanent address field..............passed
+And User clicks the submit button...........................................passed
+Then User should be able to verify that her name is displayed in the teacher list.passed
+And Tester should be able to verify the new teacher's name is on the database.passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
 </testsuite>
