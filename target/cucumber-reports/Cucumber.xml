@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.999898">
-    <testcase classname="" name="As a User I should able to create student" time="8.999898">
-        <system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.138372">
+    <testcase classname="" name="As a User I should able to create student" time="17.138372">
+        <failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#10;&#9;at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)&#10;&#9;at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/1 (1).feature:156)&#10;">
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
 And User enter "John" in first name.........................................passed
@@ -26,7 +26,16 @@ And User enter "1223 chicago street" in street..............................pass
 And User enter "60659" in zipcode...........................................passed
 And User enter "IL" in state................................................passed
 Then User click to the Submit button........................................passed
+Then User should be able to see created student displayed in the UI.........passed
+And Tester should be able to verify created student in the Database.........failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)
+	at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/1 (1).feature:156)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
 </testsuite>

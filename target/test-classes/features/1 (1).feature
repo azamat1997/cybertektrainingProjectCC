@@ -158,54 +158,6 @@ Feature:
 		   Examples:
 		     | Firstname | Lastname | Email               |Joining Date|Password|Comfirm Password|Subject|Mobile number|Gender|Admission No|Birth Date|Major  |Batch|Section|Present Address   |Company Name|Title   |Start Date|City   |Street (123 N. California, Apt 1)|ZipCode|State|
 		     | John      | Johnes   | johnjohnes@gmail.com| 03/10/2018 |12345   |12345           |tttt   |312312777    |male  |123         |12/12/1989|fighter|1    |2      |123 chicago street|Jonh inc    |fighter |02/02/2020|chicago|1223 chicago street              | 60659 |IL   |
+		 	
 
-
-	@COD-280
-	Scenario Outline: Verifying Adding New Teacher Functionality
-
-		When User clicks to Teacher Field
-
-		And User clicks to Add Teacher field
-
-		And User types "<First name>" in to first name field
-
-		And User types "<Last name> " in to last name field
-
-		And User types  "<Email address>" in to email field
-
-		And User types "<Joining date>" in to join date field
-
-		And User types "<Password>" in to password field
-
-		And User types "<Subject>" in to subject field
-
-		And User types "<Mobile number>" in to mobile number field
-
-		And User selects "<Gender>" from Gender dropdown
-
-		And User selects "<Department>" from Department dropdown
-
-		And User types "<Birth Date>" in to Birth date field
-
-		And User types "<Salary>" in to Salary field
-
-		And User selects "<Batch>" in to batch field
-
-		And User types "<Section>" in to section field
-
-		And User types "<Permanent Address> " in to permanent address field
-
-		And User clicks the submit button
-
-		Then User should be able to verify that her name is displayed in the teacher list
-
-		And Tester should be able to verify the new teacher's name is on the database
-
-
-
-		Examples:
-
-			|First name|Last name|Email address  |Joining date|Password|Subject|Mobile number|Gender|Department    |Birth Date|Salary  |Batch|Section|Permanent Address|
-			|Grace	   |Kelly	 |gkell@gmail.com| 3/2/2020	  | 123456   |World Wars   | 123456778  |Female|Social Studies|2/3/1980  | 120000 | 12	 | 3	 | 123 Main St IL  |
-
-
+	

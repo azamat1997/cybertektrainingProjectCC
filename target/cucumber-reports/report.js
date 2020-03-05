@@ -115,6 +115,14 @@ formatter.step({
   "name": "User click to the Submit button",
   "keyword": "Then "
 });
+formatter.step({
+  "name": "User should be able to see created student displayed in the UI",
+  "keyword": "Then "
+});
+formatter.step({
+  "name": "Tester should be able to verify created student in the Database",
+  "keyword": "And "
+});
 formatter.examples({
   "name": "",
   "description": "",
@@ -430,6 +438,28 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.step({
+  "name": "User should be able to see created student displayed in the UI",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "CreateStudent_StepDefs.user_should_be_able_to_see_created_student_displayed_in_the_UI()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Tester should be able to verify created student in the Database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database()"
+});
+formatter.result({
+  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)\n\tat ✽.Tester should be able to verify created student in the Database(src/test/resources/features/1 (1).feature:156)\n",
+  "status": "failed"
+});
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
