@@ -147,14 +147,14 @@ public class CreateTeacher_StepDefs {
             DBUtility.createConnection();
             List<Map<Object, Object>> data = DBUtility.executionQuery("select first_name from teacher");
             DBUtility.close();
+            String nameDBVerification = "";
 
             for(Map<Object, Object> map: data){
                 if(map.containsValue(TempStorage.getData("teacherFirstName"))){
-                    Assert.assertTrue("No matching record found. Verification FAILED", map.containsValue(TempStorage.getData("teacherFirstName")));
-                    return;
+                    nameDBVerification = map.toString();
                 }
-                Assert.fail();
             }
+            Assert.assertTrue("No match found. Verification FAILED", nameDBVerification.contains(TempStorage.getData("teacherFirstName")));
 
         }catch (SQLException e){
             e.printStackTrace();
