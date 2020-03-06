@@ -25,8 +25,8 @@ Feature:
 				    And Tester should be able to verify created teacher in the Database
 					
 					Examples:
-						|First name|Last name|Email|Joining Date|Password|Subject|Mobile number|Gender|Department|Birth Date|Salary|Batch|Section|Permanent Address|
-				    |Dwight|Schrute|dwightschrute@dundermifflin.com| 01/01/2000 | 6789 |Business| 8475555678 |Male|English| 08/15/1980 | 80000 | 12 |Paper|Scranton, PA|
+						| First name | Last name | Email                           | Joining Date | Password | Subject  | Mobile number | Gender | Department | Birth Date | Salary | Batch | Section | Permanent Address |
+						| Dwight     | Schrute   | dwightschrute@dundermifflin.com | 01/01/2000   | 6789     | Business | 8475555678    | Male   | English    | 08/15/1980 | 80000  | 12    | Paper   | Scranton, PA      |
 			
 
 	
