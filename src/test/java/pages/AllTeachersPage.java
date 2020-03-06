@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 import utilities.TempStorage;
 
+import java.util.List;
+
 public class AllTeachersPage {
     public AllTeachersPage(){
         PageFactory.initElements(Driver.getDriver(), this);
@@ -26,9 +28,12 @@ public class AllTeachersPage {
 
     @FindBy(xpath = "//a[@class=\"avatar\"]")
     public WebElement gracesArea;
+    @FindBy(xpath = "//*[@id=\"app\"]")
+    public List<WebElement> allTeachersList;
 
     public WebElement teacherFirstNameLocator(String name){
         return Driver.getDriver().findElement(By.xpath("//a[.='"+ name + "']"));
+
     }
 }
 

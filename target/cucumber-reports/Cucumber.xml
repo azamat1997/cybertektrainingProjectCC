@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.014261">
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.014261">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="54.312264">
+    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="54.312264">
         <system-out>
             <![CDATA[When User clicks to Teacher Field...........................................passed
 And User clicks to Add Teacher field........................................passed

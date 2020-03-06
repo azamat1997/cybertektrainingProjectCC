@@ -149,6 +149,11 @@ public class Adding_Teacher_StepDefs {
     }
     @Then("User should be able to verify that her name is displayed in the teacher list")
     public void user_should_be_able_to_verify_that_her_name_is_displayed_in_the_teacher_list() {
+        for(WebElement lists :allTeachersNamePage.allTeachersList){
+            Assert.assertTrue("Grace is not in the list",lists.getText().contains("Grace"));
+            SeleniumUtils.pause(3);
+        }
+
         allTeachersNamePage.teacherNameArea.sendKeys("Grace"+Keys.ENTER);
         SeleniumUtils.pause(3);
         allTeachersNamePage.searchButton.click();
@@ -159,9 +164,6 @@ public class Adding_Teacher_StepDefs {
         SeleniumUtils.pause(2);
         allTeachersNamePage.gracesArea.click();
         SeleniumUtils.pause(2);
-
-//        int id2 = Integer.parseInt(teacherID);
-
 
 
 
