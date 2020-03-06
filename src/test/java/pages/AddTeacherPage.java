@@ -53,6 +53,6 @@ public class AddTeacherPage {
     @FindBy(xpath = "//textarea[@id='message']")
     public WebElement permanentAddressInput;
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(xpath = "//button[@class=\"btn btn-primary mr-2\"]")
     public WebElement submitButton;
 }
