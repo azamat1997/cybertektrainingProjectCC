@@ -1,110 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="152.520177">
-    <testcase classname="" name="Verify Create Teacher Functionality" time="17.302669">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.920003">
+    <testcase classname="" name="As a User I should able to create student" time="11.920003">
         <system-out>
-            <![CDATA[When User clicks on Teachers module.........................................passed
-And User clicks on Add Teacher..............................................passed
-And User enters "Dwight" in first name......................................passed
-And User enters "Schrute" in last name......................................passed
-And User enters "dwightschrute@dundermifflin.com" in email..................passed
-And User enters "01/01/2000" in joining date................................passed
-And User enters "6789" in password..........................................passed
-And User enters "Business" in subject.......................................passed
-And User enters "8475555678" in mobile number...............................passed
-And User selects "Male" in gender...........................................passed
-And User selects "English" in department....................................passed
-And User enters "08/15/1980" in birth date..................................passed
-And User enters "80000" in salary...........................................passed
-And User selects "12" in batch..............................................passed
-And User enters "Paper" in section..........................................passed
-And User enters "Scranton, PA" in permanent address.........................passed
-And User clicks on Submit button............................................passed
-Then User should be able to see created teacher displayed in the UI.........passed
-And Tester should be able to verify created teacher in the Database.........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="" name="Verify Update Teacher functionality" time="44.960904">
-        <system-out>
-            <![CDATA[When User click on threedots button on Christian teacher....................passed
-And User click on Edit button...............................................passed
-And User edit "Macarena" in first name......................................passed
-And User edit "John" in last name...........................................passed
-And User edit "mcjo@xxx.com" in email.......................................passed
-And User edit "01/01/2020" in joining date calendar.........................passed
-And User edit "43212" in password...........................................passed
-And User edit "HR" in subject...............................................passed
-And User edit "0987654321" in mobile number.................................passed
-And User edit "Female" in gender............................................passed
-And User edit "Science" in department dropdown..............................passed
-And User edit "01/01/2001" in birth date calendar...........................passed
-And User edit "125 000" in salary...........................................passed
-And User edit "2" in batch..................................................passed
-And User edit "Auto" in section.............................................passed
-And User edit "2ndAvenue" in present adress.................................passed
-And User click Submit button................................................passed
-Then User should see the edited profile displayed in the UI.................passed
-And Tester should be able to veryfy the edited Teacher in DataBase..........passed
-]]>
-        </system-out>
-    </testcase>
-    <testcase classname="" name="Verify Delete Teacher Functionality" time="7.291454">
-        <skipped>
-            <![CDATA[When User clicks on drop down toggle........................................undefined
-And User click on delete option.............................................undefined
-Then User sees Delete Employee pop up.......................................undefined
-And User clicks on delete option............................................undefined
-Then User should not see the deleted teacher in the UI......................undefined
-And Tester should not see the deleted teacher in the Database...............undefined
-]]>
-        </skipped>
-    </testcase>
-    <testcase classname="" name="Verify Delete Student functionality" time="5.491489">
-        <skipped>
-            <![CDATA[When User clicks on Student module..........................................undefined
-And User clicks on Add Student..............................................undefined
-And User enters "Hello" first name..........................................undefined
-And User enters "World" last name...........................................undefined
-And User enters "helloworld@gmail.com" email................................undefined
-And User enters "<Joining Date>" joining date...............................undefined
-And User enters "helloworld" password.......................................undefined
-And User enters "java" subject..............................................undefined
-And User enters "( 111 ) 111 - 1111" mobile number..........................undefined
-And User selects "M" gender.................................................undefined
-And User enters "111" admission no..........................................undefined
-And User enters "<Birth Date>" birth date...................................undefined
-And User enters "java" major................................................undefined
-And User enters "1" batch...................................................undefined
-And User enters "1" section.................................................undefined
-And User enters "<Permanent Address>" permanent address.....................undefined
-And User enters "<Company name>" company name...............................undefined
-And User enters "<Title>" title.............................................undefined
-And User enters "<Start date>" start date...................................undefined
-And User enters "<City>" city...............................................undefined
-And User enters "<Street>" street...........................................undefined
-And User enters "<Zipcode>" zipcode.........................................undefined
-And User enters "<State>" state.............................................undefined
-Then User should be able to "<submit>" it...................................undefined
-]]>
-        </skipped>
-    </testcase>
-    <testcase classname="" name="Verify update student functionality" time="5.737634">
-        <skipped>
-            <![CDATA[When User clicks on student module..........................................undefined
-And User clicks on All Students.............................................undefined
-And User clicks on three dots of Chuck profile..............................undefined
-And User clicks edit button in dropdown box.................................undefined
-And User edits "Chuckienorris@.com" in email................................undefined
-And User edits "5015015015"in mobile number.................................undefined
-And User edits "03/01/1960" in birth date...................................undefined
-And User clicks submit button...............................................undefined
-Then User should be able to see edited student displayed in the UI..........undefined
-And Tester should be able to verify edited student in Database..............undefined
-]]>
-        </skipped>
-    </testcase>
-    <testcase classname="" name="As a User I should able to create student" time="16.738617">
-        <failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:95)&#13;&#10;&#9;at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)&#13;&#10;&#9;at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/studentTeacher.feature:156)&#13;&#10;">
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
 And User enter "John" in first name.........................................passed
@@ -130,38 +27,7 @@ And User enter "60659" in zipcode...........................................pass
 And User enter "IL" in state................................................passed
 Then User click to the Submit button........................................passed
 Then User should be able to see created student displayed in the UI.........passed
-And Tester should be able to verify created student in the Database.........failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.fail(Assert.java:95)
-	at step_definitions.CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database(CreateStudent_StepDefs.java:223)
-	at ✽.Tester should be able to verify created student in the Database(src/test/resources/features/studentTeacher.feature:156)
-]]>
-        </failure>
-    </testcase>
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="54.99741">
-        <system-out>
-            <![CDATA[When User clicks to Teacher Field...........................................passed
-And User clicks to Add Teacher field........................................passed
-And User types "Grace" in to first name field...............................passed
-And User types "Kelly " in to last name field...............................passed
-And User types  "gkell@gmail.com" in to email field.........................passed
-And User types "3/2/2008" in to join date field.............................passed
-And User types "123456" in to password field................................passed
-And User types "World Wars" in to subject field.............................passed
-And User types "123456778" in to mobile number field........................passed
-And User selects "Female" from Gender dropdown..............................passed
-And User selects "Social Studies" from Department dropdown..................passed
-And User types "2/3/1980" in to Birth date field............................passed
-And User types "0" in to Salary field.......................................passed
-And User selects "12" in to batch field.....................................passed
-And User types "3" in to section field......................................passed
-And User types "123 Main St IL " in to permanent address field..............passed
-And User clicks the submit button...........................................passed
-Then User should be able to verify that her name is displayed in the teacher list.passed
-And Tester should be able to verify the new teacher's name is on the database.passed
+And Tester should be able to verify created student in the Database.........passed
 ]]>
         </system-out>
     </testcase>
