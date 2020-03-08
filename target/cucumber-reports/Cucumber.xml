@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="129.999143">
-    <testcase classname="" name="Verify Create Teacher Functionality" time="21.12894">
-        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.='Dwight']&quot;}&#10;  (Session info: chrome=80.0.3987.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:56539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d7ca7a408acea7391335a652517234cc&#10;*** Element info: {Using=xpath, value=//a[.='Dwight']}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at pages.AllTeachersPage.teacherFirstNameLocator(AllTeachersPage.java:35)&#10;&#9;at step_definitions.CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI(CreateTeacher_StepDefs.java:140)&#10;&#9;at ✽.User should be able to see created teacher displayed in the UI(src/test/resources/features/studentTeacher.feature:24)&#10;">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="119.038965">
+    <testcase classname="" name="Verify Create Teacher Functionality" time="23.405053">
+        <system-out>
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
 And User enters "Dwight" in first name......................................passed
@@ -19,40 +19,12 @@ And User selects "12" in batch..............................................pass
 And User enters "Paper" in section..........................................passed
 And User enters "Scranton, PA" in permanent address.........................passed
 And User clicks on Submit button............................................passed
-Then User should be able to see created teacher displayed in the UI.........failed
-And Tester should be able to verify created teacher in the Database.........skipped
-
-StackTrace:
-org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='Dwight']"}
-  (Session info: chrome=80.0.3987.132)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:56539}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: d7ca7a408acea7391335a652517234cc
-*** Element info: {Using=xpath, value=//a[.='Dwight']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at pages.AllTeachersPage.teacherFirstNameLocator(AllTeachersPage.java:35)
-	at step_definitions.CreateTeacher_StepDefs.user_should_be_able_to_see_created_teacher_displayed_in_the_UI(CreateTeacher_StepDefs.java:140)
-	at ✽.User should be able to see created teacher displayed in the UI(src/test/resources/features/studentTeacher.feature:24)
+Then User should be able to see created teacher displayed in the UI.........passed
+And Tester should be able to verify created teacher in the Database.........passed
 ]]>
-        </failure>
+        </system-out>
     </testcase>
-    <testcase classname="" name="Verify Update Teacher functionality" time="38.33854">
+    <testcase classname="" name="Verify Update Teacher functionality" time="36.656382">
         <system-out>
             <![CDATA[When User click on threedots button on Christian teacher....................passed
 And User click on Edit button...............................................passed
@@ -76,7 +48,7 @@ And Tester should be able to veryfy the edited Teacher in DataBase..........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Delete Teacher Functionality" time="2.191645">
+    <testcase classname="" name="Verify Delete Teacher Functionality" time="0.334066">
         <skipped>
             <![CDATA[When User clicks on drop down toggle........................................undefined
 And User click on delete option.............................................undefined
@@ -87,7 +59,7 @@ And Tester should not see the deleted teacher in the Database...............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="Verify Delete Student functionality" time="2.217319">
+    <testcase classname="" name="Verify Delete Student functionality" time="0.379226">
         <skipped>
             <![CDATA[When User clicks on Student module..........................................undefined
 And User clicks on Add Student..............................................undefined
@@ -116,7 +88,7 @@ Then User should be able to "<submit>" it...................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="Verify update student functionality" time="2.12512">
+    <testcase classname="" name="Verify update student functionality" time="0.397913">
         <skipped>
             <![CDATA[When User clicks on student module..........................................undefined
 And User clicks on All Students.............................................undefined
@@ -131,7 +103,7 @@ And Tester should be able to verify edited student in Database..............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="As a User I should able to create student" time="10.390561">
+    <testcase classname="" name="As a User I should able to create student" time="7.502009">
         <system-out>
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
@@ -162,7 +134,7 @@ And Tester should be able to verify created student in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="53.607018">
+    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.364316">
         <system-out>
             <![CDATA[When User clicks to Teacher Field...........................................passed
 And User clicks to Add Teacher field........................................passed

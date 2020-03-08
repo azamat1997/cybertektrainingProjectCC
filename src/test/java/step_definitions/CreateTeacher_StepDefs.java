@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -105,6 +106,7 @@ public class CreateTeacher_StepDefs {
     public void user_enters_in_salary(String salaryValue) {
         SeleniumUtils.waitForVisibility(addTeacherPage.salaryInput, 5);
         addTeacherPage.salaryInput.sendKeys(Keys.chord(Keys.CONTROL,"a", Keys.DELETE));
+        addTeacherPage.salaryInput.clear();
         addTeacherPage.salaryInput.sendKeys(salaryValue);
     }
 
@@ -129,10 +131,13 @@ public class CreateTeacher_StepDefs {
     }
 
     @When("User clicks on Submit button")
-    public void user_clicks_on_Submit_button() {
-
+    public void user_clicks_on_Submit_button() throws Exception{
+        Thread.sleep(2000);
+        Actions actions = new Actions(Driver.getDriver());
+        actions.moveToElement(addTeacherPage.submitButton).perform();
+        Thread.sleep(1000);
         addTeacherPage.submitButton.click();
-
+        Thread.sleep(2000);
     }
 
     @Then("User should be able to see created teacher displayed in the UI")
