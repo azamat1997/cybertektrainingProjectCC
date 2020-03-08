@@ -178,9 +178,10 @@ public class Adding_Teacher_StepDefs {
 
         try {
             DBUtility.createConnection();
-            List<Map<Object, Object>> data = DBUtility.executionQuery("select FIRST_NAME from teacher where TEACHER_ID = 646");
+            List<Map<Object, Object>> data = DBUtility.executionQuery("select FIRST_NAME from teacher where TEACHER_ID = 664");
             DBUtility.close();
             //String expected = "Grace";
+            //String actual =
 
             for(Map<Object, Object> datas: data){
                 System.out.println(datas.get("FIRST_NAME").toString());
