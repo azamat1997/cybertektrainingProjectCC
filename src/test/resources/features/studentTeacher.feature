@@ -54,7 +54,7 @@ Feature:
     Examples:
       | Firstname | Lastname | Email        | JoiningDate | Password | Subject | MobileNumber | Gender | Department | BirthDate  | Salary | Batch | Section | PresentAdress |
       | Macarena  | John     | mcjo@xxx.com | 01/01/2020  | 22       | HR      | 0987654321   | Female | Science    | 01/01/2001 | 125000 | 2     | Auto    | 2ndAvenue     |
-
+      | Cocolero  | Coco     | coco@aaa.com | 22/12/2020  | 44444    | PP      | 5555555555   | Male   | English    | 11/11/2002 | 33000  | 5     | Java    | 8thAvenue     |
 
   @COD-275
   Scenario: Verify Delete Teacher Functionality
