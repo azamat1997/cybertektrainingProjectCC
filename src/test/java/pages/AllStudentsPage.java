@@ -14,7 +14,7 @@ public class AllStudentsPage {
     @FindBy(xpath = "//a[.='Add Student']")
     public WebElement addStudentButton;
 
-    public WebElement studentFirstNameLocator(String name){
+   public WebElement studentFirstNameLocator(String name){
         return Driver.getDriver().findElement(By.xpath("//a[.='"+ name + "']"));
     }
 }
