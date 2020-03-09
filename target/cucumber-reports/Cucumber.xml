@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="121.415055">
-    <testcase classname="" name="Verify Create Teacher Functionality" time="20.823813">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="114.712856">
+    <testcase classname="" name="Verify Create Teacher Functionality" time="18.405595">
         <system-out>
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
@@ -24,7 +24,7 @@ And Tester should be able to verify created teacher in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Update Teacher functionality" time="36.586095">
+    <testcase classname="" name="Verify Update Teacher functionality" time="36.598325">
         <system-out>
             <![CDATA[When User click on threedots button on Christian teacher....................passed
 And User click on Edit button...............................................passed
@@ -48,7 +48,7 @@ And Tester should be able to veryfy the edited Teacher in DataBase..........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Delete Teacher Functionality" time="0.392394">
+    <testcase classname="" name="Verify Delete Teacher Functionality" time="0.336947">
         <skipped>
             <![CDATA[When User clicks on drop down toggle........................................undefined
 And User click on delete option.............................................undefined
@@ -59,7 +59,7 @@ And Tester should not see the deleted teacher in the Database...............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="Verify Delete Student functionality" time="0.340753">
+    <testcase classname="" name="Verify Delete Student functionality" time="0.347269">
         <skipped>
             <![CDATA[When User clicks on Student module..........................................undefined
 And User clicks on Add Student..............................................undefined
@@ -88,7 +88,7 @@ Then User should be able to "<submit>" it...................................unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="Verify update student functionality" time="0.317497">
+    <testcase classname="" name="Verify update student functionality" time="0.621374">
         <skipped>
             <![CDATA[When User clicks on student module..........................................undefined
 And User clicks on All Students.............................................undefined
@@ -103,7 +103,7 @@ And Tester should be able to verify edited student in Database..............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="As a User I should able to create student" time="12.542509">
+    <testcase classname="" name="As a User I should able to create student" time="7.951118">
         <system-out>
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
@@ -134,7 +134,7 @@ And Tester should be able to verify created student in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.411994">
+    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.452228">
         <system-out>
             <![CDATA[When User clicks to Teacher Field...........................................passed
 And User clicks to Add Teacher field........................................passed
