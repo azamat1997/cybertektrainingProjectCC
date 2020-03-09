@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="7" time="114.881175">
-    <testcase classname="" name="Verify Create Teacher Functionality" time="17.816454">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="7" time="203.625835">
+    <testcase classname="" name="Verify Create Teacher Functionality" time="17.536531">
         <system-out>
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
@@ -24,7 +24,7 @@ And Tester should be able to verify created teacher in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Update Teacher functionality" time="36.337419">
+    <testcase classname="" name="Verify Update Teacher functionality" time="36.650758">
         <system-out>
             <![CDATA[When User click on threedots button on Christian teacher....................passed
 And User click on Edit button...............................................passed
@@ -48,7 +48,7 @@ And Tester should be able to veryfy the edited Teacher in DataBase..........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Delete Teacher Functionality" time="0.317522">
+    <testcase classname="" name="Verify Delete Teacher Functionality" time="0.363785">
         <skipped>
             <![CDATA[When User clicks on drop down toggle........................................undefined
 And User click on delete option.............................................undefined
@@ -59,36 +59,51 @@ And Tester should not see the deleted teacher in the Database...............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="Verify Delete Student functionality" time="0.325676">
-        <skipped>
-            <![CDATA[When User clicks on Student module..........................................undefined
-And User clicks on Add Student..............................................undefined
-And User enters "Hello" first name..........................................undefined
-And User enters "World" last name...........................................undefined
-And User enters "helloworld@gmail.com" email................................undefined
-And User enters "<Joining Date>" joining date...............................undefined
-And User enters "helloworld" password.......................................undefined
-And User enters "java" subject..............................................undefined
-And User enters "( 111 ) 111 - 1111" mobile number..........................undefined
-And User selects "M" gender.................................................undefined
-And User enters "111" admission no..........................................undefined
-And User enters "<Birth Date>" birth date...................................undefined
-And User enters "java" major................................................undefined
-And User enters "1" batch...................................................undefined
-And User enters "1" section.................................................undefined
-And User enters "<Permanent Address>" permanent address.....................undefined
-And User enters "<Company name>" company name...............................undefined
-And User enters "<Title>" title.............................................undefined
-And User enters "<Start date>" start date...................................undefined
-And User enters "<City>" city...............................................undefined
-And User enters "<Street>" street...........................................undefined
-And User enters "<Zipcode>" zipcode.........................................undefined
-And User enters "<State>" state.............................................undefined
-Then User should be able to "<submit>" it...................................undefined
+    <testcase classname="" name="Verify Delete Student functionality" time="91.70051">
+        <failure message="java.lang.AssertionError: No matching record found. Verification FAILED&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)&#10;&#9;at ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:109)&#10;">
+            <![CDATA[When User clicks on Student module..........................................passed
+And User clicks on Add Student..............................................passed
+And User enters first name..................................................passed
+And User enters last name...................................................passed
+And User enters email.......................................................passed
+And User enters joining date................................................passed
+And User enters password....................................................passed
+And User enters subject.....................................................passed
+And User enters mobile number...............................................passed
+And User selects gender.....................................................passed
+And User enters admission no................................................passed
+And User enters birth Date..................................................passed
+And User enters major.......................................................passed
+And User enters "11"  batch.................................................passed
+And User enters section.....................................................passed
+And User enters permanent address...........................................passed
+And User enters company name................................................passed
+And User enters title.......................................................passed
+And User enters start date..................................................passed
+And User enters city........................................................passed
+And User enters street......................................................passed
+And User enters zipCode.....................................................passed
+And User enters state.......................................................passed
+And User should be able to click submit button..............................passed
+And User should be able to see created Student displayed in the UI..........passed
+And Tester should be able verify created Student in Database................passed
+And User should be able to go type name to search...........................passed
+And User should be able to go to click search...............................passed
+And User should be able to go created Student dropdown......................passed
+And User should be able to select delete to delete created Student..........passed
+And User should be able to confirm..........................................passed
+Then Tester should be able to verify deleted Student in Database;...........failed
+
+StackTrace:
+java.lang.AssertionError: No matching record found. Verification FAILED
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)
+	at ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:109)
 ]]>
-        </skipped>
+        </failure>
     </testcase>
-    <testcase classname="" name="Verify update student functionality" time="0.411577">
+    <testcase classname="" name="Verify update student functionality" time="0.327464">
         <skipped>
             <![CDATA[When User clicks on student module..........................................undefined
 And User clicks on All Students.............................................undefined
@@ -103,7 +118,7 @@ And Tester should be able to verify edited student in Database..............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="As a User I should able to create student" time="9.468448">
+    <testcase classname="" name="As a User I should able to create student" time="6.702013">
         <system-out>
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
@@ -134,7 +149,7 @@ And Tester should be able to verify created student in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.204079">
+    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="50.344774">
         <system-out>
             <![CDATA[When User clicks to Teacher Field...........................................passed
 And User clicks to Add Teacher field........................................passed
