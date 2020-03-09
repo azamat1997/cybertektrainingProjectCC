@@ -1,5 +1,5 @@
 @COD-279
-Feature: 
+Feature: Editing Functionality for Teacher or student
 
 	
 	@COD-278
