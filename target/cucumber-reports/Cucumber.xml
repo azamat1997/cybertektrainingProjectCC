@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="7" time="271.940068">
-    <testcase classname="" name="Verify Create Teacher Functionality" time="26.833841">
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="7" time="226.422936">
+    <testcase classname="Editing Functionality for Teacher or student" name="Verify Create Teacher Functionality" time="25.93213">
         <system-out>
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
@@ -24,32 +24,62 @@ And Tester should be able to verify created teacher in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verify Update Teacher functionality" time="42.879335">
-        <system-out>
+    <testcase classname="Editing Functionality for Teacher or student" name="Verify Update Teacher functionality" time="21.026652">
+        <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//input[@type='text'])[1]&quot;}&#10;  (Session info: chrome=80.0.3987.132)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6d73c8f5a7f966f8c7943ae842af2e69&#10;*** Element info: {Using=xpath, value=(//input[@type='text'])[1]}&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at com.sun.proxy.$Proxy17.clear(Unknown Source)&#10;&#9;at step_definitions.EditTeacher_StepDefs.user_edit_in_first_name(EditTeacher_StepDefs.java:53)&#10;&#9;at ✽.User edit &quot;Macarena&quot; in first name(src/test/resources/features/studentTeacher.feature:37)&#10;">
             <![CDATA[When User click on threedots button on Christian teacher....................passed
 And User click on Edit button...............................................passed
-And User edit "Macarena" in first name......................................passed
-And User edit "John" in last name...........................................passed
-And User edit "mcjo@xxx.com" in email.......................................passed
-And User edit "01/01/2020" in joining date calendar.........................passed
-And User edit "43212" in password...........................................passed
-And User edit "HR" in subject...............................................passed
-And User edit "0987654321" in mobile number.................................passed
-And User edit "Female" in gender............................................passed
-And User edit "Science" in department dropdown..............................passed
-And User edit "01/01/2001" in birth date calendar...........................passed
-And User edit "125 000" in salary...........................................passed
-And User edit "2" in batch..................................................passed
-And User edit "Auto" in section.............................................passed
-And User edit "2ndAvenue" in present adress.................................passed
-And User click Submit button................................................passed
-Then User should see the edited profile displayed in the UI.................passed
-And Tester should be able to veryfy the edited Teacher in DataBase..........passed
+And User edit "Macarena" in first name......................................failed
+And User edit "John" in last name...........................................skipped
+And User edit "mcjo@xxx.com" in email.......................................skipped
+And User edit "01/01/2020" in joining date calendar.........................skipped
+And User edit "43212" in password...........................................skipped
+And User edit "HR" in subject...............................................skipped
+And User edit "0987654321" in mobile number.................................skipped
+And User edit "Female" in gender............................................skipped
+And User edit "Science" in department dropdown..............................skipped
+And User edit "01/01/2001" in birth date calendar...........................skipped
+And User edit "125 000" in salary...........................................skipped
+And User edit "2" in batch..................................................skipped
+And User edit "Auto" in section.............................................skipped
+And User edit "2ndAvenue" in present adress.................................skipped
+And User click Submit button................................................skipped
+Then User should see the edited profile displayed in the UI.................skipped
+And Tester should be able to veryfy the edited Teacher in DataBase..........skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@type='text'])[1]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d73c8f5a7f966f8c7943ae842af2e69
+*** Element info: {Using=xpath, value=(//input[@type='text'])[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.clear(Unknown Source)
+	at step_definitions.EditTeacher_StepDefs.user_edit_in_first_name(EditTeacher_StepDefs.java:53)
+	at ✽.User edit "Macarena" in first name(src/test/resources/features/studentTeacher.feature:37)
 ]]>
-        </system-out>
+        </failure>
     </testcase>
-    <testcase classname="" name="Verify Delete Teacher Functionality" time="31.781187">
-        <failure message="java.lang.AssertionError: Teacher's name is found on this page, FAILED&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at step_definitions.DeleteTeacher_StepDefs.user_should_not_see_the_deleted_teacher_in_the_UI(DeleteTeacher_StepDefs.java:45)&#13;&#10;&#9;at ✽.User should not see the deleted teacher in the UI(src/test/resources/features/studentTeacher.feature:86)&#13;&#10;">
+    <testcase classname="Editing Functionality for Teacher or student" name="Verify Delete Teacher Functionality" time="28.87074">
+        <failure message="org.openqa.selenium.ElementNotInteractableException: element not interactable&#10;  (Session info: chrome=80.0.3987.132)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6d73c8f5a7f966f8c7943ae842af2e69&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)&#10;&#9;at step_definitions.DeleteTeacher_StepDefs.user_clicks_on_delete_option(DeleteTeacher_StepDefs.java:34)&#10;&#9;at ✽.User clicks on delete option(src/test/resources/features/studentTeacher.feature:84)&#10;">
             <![CDATA[When User clicks on Teachers module.........................................passed
 And User clicks on Add Teacher..............................................passed
 And User enters "Dwight" in first name......................................passed
@@ -69,22 +99,38 @@ And User enters "Scranton, PA" in permanent address.........................pass
 And User clicks on Submit button............................................passed
 And User locates the Teacher................................................passed
 And User clicks on drop down toggle.........................................passed
-And User clicks on delete option............................................passed
-And User clicks on delete option from pop up................................passed
-And User should not see the deleted teacher in the UI.......................failed
+And User clicks on delete option............................................failed
+And User clicks on delete option from pop up................................skipped
+And User should not see the deleted teacher in the UI.......................skipped
 And Tester should be able to verify deleted teacher in the Database.........skipped
 
 StackTrace:
-java.lang.AssertionError: Teacher's name is found on this page, FAILED
-	at org.junit.Assert.fail(Assert.java:88)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at step_definitions.DeleteTeacher_StepDefs.user_should_not_see_the_deleted_teacher_in_the_UI(DeleteTeacher_StepDefs.java:45)
-	at ✽.User should not see the deleted teacher in the UI(src/test/resources/features/studentTeacher.feature:86)
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: '2603:300a:16aa:1000:0:0:0:83b8%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '11.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d73c8f5a7f966f8c7943ae842af2e69
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at step_definitions.DeleteTeacher_StepDefs.user_clicks_on_delete_option(DeleteTeacher_StepDefs.java:34)
+	at ✽.User clicks on delete option(src/test/resources/features/studentTeacher.feature:84)
 ]]>
         </failure>
     </testcase>
-    <testcase classname="" name="Verify Delete Student functionality" time="100.515247">
-        <failure message="java.lang.AssertionError: No matching record found. Verification FAILED&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)&#13;&#10;&#9;at ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:134)&#13;&#10;">
+    <testcase classname="Editing Functionality for Teacher or student" name="Verify Delete Student functionality" time="92.67978">
+        <failure message="java.lang.AssertionError: No matching record found. Verification FAILED&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)&#10;&#9;at ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:134)&#10;">
             <![CDATA[When User clicks on Student module..........................................passed
 And User clicks on Add Student..............................................passed
 And User enters first name..................................................passed
@@ -127,7 +173,7 @@ java.lang.AssertionError: No matching record found. Verification FAILED
 ]]>
         </failure>
     </testcase>
-    <testcase classname="" name="Verify update student functionality" time="1.210249">
+    <testcase classname="Editing Functionality for Teacher or student" name="Verify update student functionality" time="0.344799">
         <skipped>
             <![CDATA[When User clicks on student module..........................................undefined
 And User clicks on All Students.............................................undefined
@@ -142,7 +188,7 @@ And Tester should be able to verify edited student in Database..............unde
 ]]>
         </skipped>
     </testcase>
-    <testcase classname="" name="As a User I should able to create student" time="13.999682">
+    <testcase classname="Editing Functionality for Teacher or student" name="As a User I should able to create student" time="7.055689">
         <system-out>
             <![CDATA[When User click on Students module..........................................passed
 And User click on Add student...............................................passed
@@ -173,7 +219,7 @@ And Tester should be able to verify created student in the Database.........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="" name="Verifying Adding New Teacher Functionality" time="54.720527">
+    <testcase classname="Editing Functionality for Teacher or student" name="Verifying Adding New Teacher Functionality" time="50.513146">
         <system-out>
             <![CDATA[When User clicks to Teacher Field...........................................passed
 And User clicks to Add Teacher field........................................passed

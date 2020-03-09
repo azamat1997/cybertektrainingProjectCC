@@ -1,6 +1,6 @@
 $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/studentTeacher.feature");
 formatter.feature({
-  "name": "",
+  "name": "Editing Functionality for Teacher or student",
   "description": "",
   "keyword": "Feature",
   "tags": [
@@ -520,7 +520,8 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_first_name(String)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//input[@type\u003d\u0027text\u0027])[1]\"}\n  (Session info: chrome\u003d80.0.3987.132)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro.local\u0027, ip: \u00272603:300a:16aa:1000:0:0:0:83b8%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6d73c8f5a7f966f8c7943ae842af2e69\n*** Element info: {Using\u003dxpath, value\u003d(//input[@type\u003d\u0027text\u0027])[1]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy17.clear(Unknown Source)\n\tat step_definitions.EditTeacher_StepDefs.user_edit_in_first_name(EditTeacher_StepDefs.java:53)\n\tat ✽.User edit \"Macarena\" in first name(src/test/resources/features/studentTeacher.feature:37)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User edit \"John\" in last name",
@@ -530,7 +531,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_last_name(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"mcjo@xxx.com\" in email",
@@ -540,7 +541,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_email(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"01/01/2020\" in joining date calendar",
@@ -550,7 +551,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_joining_date_calendar(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"43212\" in password",
@@ -560,7 +561,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_password(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"HR\" in subject",
@@ -570,7 +571,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_subject(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"0987654321\" in mobile number",
@@ -580,7 +581,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_mobile_number(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"Female\" in gender",
@@ -590,7 +591,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_gender(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"Science\" in department dropdown",
@@ -600,7 +601,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_department_dropdown(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"01/01/2001\" in birth date calendar",
@@ -610,7 +611,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_birth_date_calendar(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"125 000\" in salary",
@@ -620,7 +621,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_salary(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"2\" in batch",
@@ -630,7 +631,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_batch(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"Auto\" in section",
@@ -640,7 +641,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_section(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User edit \"2ndAvenue\" in present adress",
@@ -650,7 +651,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_edit_in_present_adress(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User click Submit button",
@@ -660,7 +661,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_click_Submit_button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should see the edited profile displayed in the UI",
@@ -670,7 +671,7 @@ formatter.match({
   "location": "EditTeacher_StepDefs.user_should_see_the_edited_profile_displayed_in_the_UI()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "Tester should be able to veryfy the edited Teacher in DataBase",
@@ -680,8 +681,9 @@ formatter.match({
   "location": "EditTeacher_StepDefs.tester_should_be_able_to_veryfy_the_edited_Teacher_in_DataBase()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("image/png", "embedded0.png");
 formatter.after({
   "status": "passed"
 });
@@ -1044,7 +1046,8 @@ formatter.match({
   "location": "DeleteTeacher_StepDefs.user_clicks_on_delete_option()"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d80.0.3987.132)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027MacBook-Pro.local\u0027, ip: \u00272603:300a:16aa:1000:0:0:0:83b8%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002711.0.3\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: /var/folders/wc/49yvv7391gb...}, goog:chromeOptions: {debuggerAddress: localhost:49434}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 6d73c8f5a7f966f8c7943ae842af2e69\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat step_definitions.DeleteTeacher_StepDefs.user_clicks_on_delete_option(DeleteTeacher_StepDefs.java:34)\n\tat ✽.User clicks on delete option(src/test/resources/features/studentTeacher.feature:84)\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "User clicks on delete option from pop up",
@@ -1054,7 +1057,7 @@ formatter.match({
   "location": "DeleteTeacher_StepDefs.user_clicks_on_delete_option_from_pop_up()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User should not see the deleted teacher in the UI",
@@ -1064,8 +1067,7 @@ formatter.match({
   "location": "DeleteTeacher_StepDefs.user_should_not_see_the_deleted_teacher_in_the_UI()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: Teacher\u0027s name is found on this page, FAILED\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat step_definitions.DeleteTeacher_StepDefs.user_should_not_see_the_deleted_teacher_in_the_UI(DeleteTeacher_StepDefs.java:45)\r\n\tat ✽.User should not see the deleted teacher in the UI(src/test/resources/features/studentTeacher.feature:86)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "Tester should be able to verify deleted teacher in the Database",
@@ -1077,7 +1079,7 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
-formatter.embedding("image/png", "embedded0.png");
+formatter.embedding("image/png", "embedded1.png");
 formatter.after({
   "status": "passed"
 });
@@ -1610,10 +1612,10 @@ formatter.match({
   "location": "DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: No matching record found. Verification FAILED\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)\r\n\tat ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:134)\r\n",
+  "error_message": "java.lang.AssertionError: No matching record found. Verification FAILED\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat step_definitions.DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database(DeleteStudent_StepDef.java:308)\n\tat ✽.Tester should be able to verify deleted Student in Database;(src/test/resources/features/studentTeacher.feature:134)\n",
   "status": "failed"
 });
-formatter.embedding("image/png", "embedded1.png");
+formatter.embedding("image/png", "embedded2.png");
 formatter.after({
   "status": "passed"
 });
