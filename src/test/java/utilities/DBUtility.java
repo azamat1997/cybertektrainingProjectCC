@@ -26,6 +26,7 @@ public class DBUtility {
                 connection = null;
         }
     }
+
     public static List<Map<Object, Object>> executionQuery(String query) throws SQLException{
         statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
         resultSet = statement.executeQuery(query);

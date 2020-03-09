@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="11.920003">
-    <testcase classname="" name="As a User I should able to create student" time="11.920003">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="156.363838">
+    <testcase classname="" name="Verify Delete Student functionality" time="156.363838">
         <system-out>
-            <![CDATA[When User click on Students module..........................................passed
-And User click on Add student...............................................passed
-And User enter "John" in first name.........................................passed
-And User enter "Johnes" in last name........................................passed
-And User enter "johnjohnes@gmail.com" in email..............................passed
-And User enter "03/10/2018" in joining date.................................passed
-And User enter "12345" in password..........................................passed
-And User enter "tttt" in subject............................................passed
-And User enter "312312777" in mobile number.................................passed
-And User enter "male" in gender.............................................passed
-And User enter "123" in admission No........................................passed
-And User enter "12/12/1989" in birth date...................................passed
-And User enter "fighter" in major...........................................passed
-And User enter "1" in batch.................................................passed
-And User enter "2" in section...............................................passed
-And User enter "123 chicago street" present address.........................passed
-And User enter "Jonh inc" compamy name......................................passed
-And User enter "fighter" in title...........................................passed
-And User enter "02/02/2020" start date......................................passed
-And User enter "chicago" in city............................................passed
-And User enter "1223 chicago street" in street..............................passed
-And User enter "60659" in zipcode...........................................passed
-And User enter "IL" in state................................................passed
-Then User click to the Submit button........................................passed
-Then User should be able to see created student displayed in the UI.........passed
-And Tester should be able to verify created student in the Database.........passed
+            <![CDATA[When User clicks on Student module..........................................passed
+And User clicks on Add Student..............................................passed
+And User enters first name..................................................passed
+And User enters last name...................................................passed
+And User enters email.......................................................passed
+And User enters joining date................................................passed
+And User enters password....................................................passed
+And User enters subject.....................................................passed
+And User enters mobile number...............................................passed
+And User selects gender.....................................................passed
+And User enters admission no................................................passed
+And User enters birth Date..................................................passed
+And User enters major.......................................................passed
+And User enters "11"  batch.................................................passed
+And User enters section.....................................................passed
+And User enters permanent address...........................................passed
+And User enters company name................................................passed
+And User enters title.......................................................passed
+And User enters start date..................................................passed
+And User enters city........................................................passed
+And User enters street......................................................passed
+And User enters zipCode.....................................................passed
+And User enters state.......................................................passed
+And User should be able to click submit button..............................passed
+And User should be able to see created Student displayed in the UI..........passed
+And Tester should be able verify created Student in Database................passed
+And User should be able to go type name to search...........................passed
+And User should be able to go to click search...............................passed
+And User should be able to go created Student dropdown......................passed
+And User should be able to select delete to delete created Student..........passed
+And User should be able to confirm..........................................passed
+Then Tester should be able to verify deleted Student in Database;...........passed
 ]]>
         </system-out>
     </testcase>

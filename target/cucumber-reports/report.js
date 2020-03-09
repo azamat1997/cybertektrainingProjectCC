@@ -10,118 +10,142 @@ formatter.feature({
   ]
 });
 formatter.scenarioOutline({
-  "name": "As a User I should able to create student",
+  "name": "Verify Delete Student functionality",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@COD-273"
+      "name": "@COD-277"
     }
   ]
 });
 formatter.step({
-  "name": "User click on Students module",
+  "name": "User clicks on Student module",
   "keyword": "When "
 });
 formatter.step({
-  "name": "User click on Add student",
+  "name": "User clicks on Add Student",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cFirstname\u003e\" in first name",
+  "name": "User enters first name",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cLastname\u003e\" in last name",
+  "name": "User enters last name",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cEmail\u003e\" in email",
+  "name": "User enters email",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cJoining Date\u003e\" in joining date",
+  "name": "User enters joining date",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cPassword\u003e\" in password",
+  "name": "User enters password",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cSubject\u003e\" in subject",
+  "name": "User enters subject",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cMobile number\u003e\" in mobile number",
+  "name": "User enters mobile number",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cGender\u003e\" in gender",
+  "name": "User selects gender",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cAdmission No\u003e\" in admission No",
+  "name": "User enters admission no",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cBirth Date\u003e\" in birth date",
+  "name": "User enters birth Date",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cMajor\u003e\" in major",
+  "name": "User enters major",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cBatch\u003e\" in batch",
+  "name": "User enters \"\u003cBatch\u003e\"  batch",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cSection\u003e\" in section",
+  "name": "User enters section",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cPresent Address\u003e\" present address",
+  "name": "User enters permanent address",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cCompany Name\u003e\" compamy name",
+  "name": "User enters company name",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cTitle\u003e\" in title",
+  "name": "User enters title",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cStart Date\u003e\" start date",
+  "name": "User enters start date",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cCity\u003e\" in city",
+  "name": "User enters city",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cStreet (123 N. California, Apt 1)\u003e\" in street",
+  "name": "User enters street",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cZipCode\u003e\" in zipcode",
+  "name": "User enters zipCode",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User enter \"\u003cState\u003e\" in state",
+  "name": "User enters state",
   "keyword": "And "
 });
 formatter.step({
-  "name": "User click to the Submit button",
+  "name": "User should be able to click submit button",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to see created Student displayed in the UI",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Tester should be able verify created Student in Database",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to go type name to search",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to go to click search",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to go created Student dropdown",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to select delete to delete created Student",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "User should be able to confirm",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "Tester should be able to verify deleted Student in Database;",
   "keyword": "Then "
-});
-formatter.step({
-  "name": "User should be able to see created student displayed in the UI",
-  "keyword": "Then "
-});
-formatter.step({
-  "name": "Tester should be able to verify created student in the Database",
-  "keyword": "And "
 });
 formatter.examples({
   "name": "",
@@ -130,12 +154,11 @@ formatter.examples({
   "rows": [
     {
       "cells": [
-        "Firstname",
-        "Lastname",
+        "First name",
+        "Last name",
         "Email",
         "Joining Date",
         "Password",
-        "Comfirm Password",
         "Subject",
         "Mobile number",
         "Gender",
@@ -144,46 +167,45 @@ formatter.examples({
         "Major",
         "Batch",
         "Section",
-        "Present Address",
-        "Company Name",
+        "Permanent Address",
+        "Company name",
         "Title",
         "Start Date",
         "City",
-        "Street (123 N. California, Apt 1)",
+        "Street",
         "ZipCode",
         "State"
       ]
     },
     {
       "cells": [
-        "John",
-        "Johnes",
-        "johnjohnes@gmail.com",
-        "03/10/2018",
-        "12345",
-        "12345",
-        "tttt",
-        "312312777",
-        "male",
-        "123",
-        "12/12/1989",
-        "fighter",
+        "Hello",
+        "World",
+        "helloworld@gmail.com",
+        "01 / 01 / 2001",
+        "helloworld",
+        "java",
+        "1111111111",
+        "Male",
+        "111",
+        "01 / 01 / 1900",
+        "java",
+        "11",
         "1",
-        "2",
-        "123 chicago street",
-        "Jonh inc",
-        "fighter",
-        "02/02/2020",
-        "chicago",
-        "1223 chicago street",
-        "60659",
+        "100 chicago",
+        "Cybertek",
+        "IT",
+        "01 / 09 / 2018",
+        "Chicago",
+        "Chicago ave",
+        "60601",
         "IL"
       ]
     }
   ]
 });
 formatter.scenario({
-  "name": "As a User I should able to create student",
+  "name": "Verify Delete Student functionality",
   "description": "",
   "keyword": "Scenario Outline",
   "tags": [
@@ -191,7 +213,7 @@ formatter.scenario({
       "name": "@COD-279"
     },
     {
-      "name": "@COD-273"
+      "name": "@COD-277"
     }
   ]
 });
@@ -199,261 +221,321 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click on Students module",
+  "name": "User clicks on Student module",
   "keyword": "When "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_click_on_Students_module()"
+  "location": "DeleteStudent_StepDef.user_clicks_on_Student_module()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click on Add student",
+  "name": "User clicks on Add Student",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_click_on_Add_student()"
+  "location": "DeleteStudent_StepDef.user_clicks_on_Add_Student()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"John\" in first name",
+  "name": "User enters first name",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_first_name(String)"
+  "location": "DeleteStudent_StepDef.user_enters_first_name()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"Johnes\" in last name",
+  "name": "User enters last name",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_last_name(String)"
+  "location": "DeleteStudent_StepDef.user_enters_last_name()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"johnjohnes@gmail.com\" in email",
+  "name": "User enters email",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_email(String)"
+  "location": "DeleteStudent_StepDef.user_enters_email()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"03/10/2018\" in joining date",
+  "name": "User enters joining date",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_joining_date(String)"
+  "location": "DeleteStudent_StepDef.user_enters_joining_date()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"12345\" in password",
+  "name": "User enters password",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_password(String)"
+  "location": "DeleteStudent_StepDef.user_enters_password()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"tttt\" in subject",
+  "name": "User enters subject",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_subject(String)"
+  "location": "DeleteStudent_StepDef.user_enters_subject()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"312312777\" in mobile number",
+  "name": "User enters mobile number",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_mobile_number(String)"
+  "location": "DeleteStudent_StepDef.user_enters_mobile_number()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"male\" in gender",
+  "name": "User selects gender",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_gender(String)"
+  "location": "DeleteStudent_StepDef.user_selects_gender()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"123\" in admission No",
+  "name": "User enters admission no",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_admission_No(String)"
+  "location": "DeleteStudent_StepDef.user_enters_admission_no()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"12/12/1989\" in birth date",
+  "name": "User enters birth Date",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_birth_date(String)"
+  "location": "DeleteStudent_StepDef.user_enters_birth_Date()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"fighter\" in major",
+  "name": "User enters major",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_major(String)"
+  "location": "DeleteStudent_StepDef.user_enters_major()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"1\" in batch",
+  "name": "User enters \"11\"  batch",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_batch(String)"
+  "location": "DeleteStudent_StepDef.user_enters_batch(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"2\" in section",
+  "name": "User enters section",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_section(String)"
+  "location": "DeleteStudent_StepDef.user_enters_section()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"123 chicago street\" present address",
+  "name": "User enters permanent address",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_present_address(String)"
+  "location": "DeleteStudent_StepDef.user_enters_permanent_address()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"Jonh inc\" compamy name",
+  "name": "User enters company name",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_compamy_name(String)"
+  "location": "DeleteStudent_StepDef.user_enters_company_name()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"fighter\" in title",
+  "name": "User enters title",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_title(String)"
+  "location": "DeleteStudent_StepDef.user_enters_title()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"02/02/2020\" start date",
+  "name": "User enters start date",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_start_date(String)"
+  "location": "DeleteStudent_StepDef.user_enters_start_date()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"chicago\" in city",
+  "name": "User enters city",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_city(String)"
+  "location": "DeleteStudent_StepDef.user_enters_city()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"1223 chicago street\" in street",
+  "name": "User enters street",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_street(String)"
+  "location": "DeleteStudent_StepDef.user_enters_street()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"60659\" in zipcode",
+  "name": "User enters zipCode",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_zipcode(String)"
+  "location": "DeleteStudent_StepDef.user_enters_ZipCode()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enter \"IL\" in state",
+  "name": "User enters state",
   "keyword": "And "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_enter_in_state(String)"
+  "location": "DeleteStudent_StepDef.user_enters_state()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User click to the Submit button",
+  "name": "User should be able to click submit button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_click_submit_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to see created Student displayed in the UI",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_see_created_Student_displayed_in_the_UI()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Tester should be able verify created Student in Database",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.tester_should_be_able_verify_created_Student_in_Database()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to go type name to search",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_go_type_name_to_search()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to go to click search",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_go_to_click_search()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to go created Student dropdown",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_go_created_Student_dropdown()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to select delete to delete created Student",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_select_delete_to_delete_created_Student()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to confirm",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DeleteStudent_StepDef.user_should_be_able_to_confirm()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Tester should be able to verify deleted Student in Database;",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "CreateStudent_StepDefs.user_click_to_the_Submit_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User should be able to see created student displayed in the UI",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "CreateStudent_StepDefs.user_should_be_able_to_see_created_student_displayed_in_the_UI()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Tester should be able to verify created student in the Database",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "CreateStudent_StepDefs.tester_should_be_able_to_verify_created_student_in_the_Database()"
+  "location": "DeleteStudent_StepDef.tester_should_be_able_to_verify_deleted_Student_in_Database()"
 });
 formatter.result({
   "status": "passed"

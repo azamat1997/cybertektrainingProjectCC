@@ -77,33 +77,41 @@ Feature:
 	Scenario Outline: Verify Delete Student functionality 
 		When User clicks on Student module
 		And User clicks on Add Student
-		And User enters "<First name>" first name
-		And User enters "<Last name>" last name
-		And User enters "<Email>" email
-		And User enters "<Joining Date>" joining date
-		And User enters "<Password>" password
-		And User enters "<Subject>" subject
-		And User enters "<Mobile number>" mobile number
-		And User selects "<Gender>" gender
-		And User enters "<Admission No>" admission no
-		And User enters "<Birth Date>" birth date
-		And User enters "<Major>" major
-		And User enters "<Batch>" batch
-		And User enters "<Section>" section
-		And User enters "<Permanent Address>" permanent address
-		And User enters "<Company name>" company name
-		And User enters "<Title>" title
-		And User enters "<Start date>" start date
-		And User enters "<City>" city
-		And User enters "<Street>" street
-		And User enters "<Zipcode>" zipcode
-		And User enters "<State>" state
-		Then User should be able to "<submit>" it.
-		
+		And User enters first name
+		And User enters last name
+		And User enters email
+		And User enters joining date
+		And User enters password
+		And User enters subject
+		And User enters mobile number
+		And User selects gender
+		And User enters admission no
+		And User enters birth Date
+		And User enters major
+		And User enters "<Batch>"  batch
+		And User enters section
+		And User enters permanent address
+		And User enters company name
+		And User enters title
+		And User enters start date
+		And User enters city
+		And User enters street
+		And User enters zipCode
+		And User enters state
+		And User should be able to click submit button
+		And User should be able to see created Student displayed in the UI
+		And Tester should be able verify created Student in Database
+		And User should be able to go type name to search
+		And User should be able to go to click search
+		And User should be able to go created Student dropdown
+		And User should be able to select delete to delete created Student
+		And User should be able to confirm
+		Then Tester should be able to verify deleted Student in Database;
+
 		
 		Examples:
-		|First name|Last name|Email|Joining date|Password|Subject|Mobile number|Gender|Admission No|Birth date|Major|Batch|Section|Permanent address|
-		|Hello|World|helloworld@gmail.com| 01 / 01 / 2001 |helloworld|java|( 111 ) 111 - 1111 | M | 111 |  01 / 01 / 1900 |java | 1 | 1 | 100 chicago|	
+			| First name | Last name | Email                | Joining Date   | Password   | Subject | Mobile number | Gender | Admission No | Birth Date     | Major | Batch | Section | Permanent Address | Company name | Title | Start Date     | City    | Street      |ZipCode| State |
+			| Hello      | World     | helloworld@gmail.com | 01 / 01 / 2001 | helloworld | java    | 1111111111    | Male   | 111          | 01 / 01 / 1900 | java  | 11    | 1       | 100 chicago       | Cybertek     | IT    | 01 / 09 / 2018 | Chicago | Chicago ave |60601| IL    |
 
 	
 	@COD-276
