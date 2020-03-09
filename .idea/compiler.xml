@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cybertektrainingProjectCC" />
         <module name="cybertektrainingProjectCCc" />
+        <module name="cybertektrainingProjectCC(Azamat)" />
         <module name="2" />
       </profile>
     </annotationProcessing>

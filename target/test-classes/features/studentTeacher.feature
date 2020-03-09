@@ -61,18 +61,43 @@ Feature:
 
 	
 	@COD-275
-	Scenario: Verify Delete Teacher Functionality
-		
-		    When User clicks on drop down toggle
-		    And User click on delete option
-		    Then User sees Delete Employee pop up
-		    And User clicks on delete option
-		    Then User should not see the deleted teacher in the UI
-		    And Tester should not see the deleted teacher in the Database
-		    
-			
+	Scenario Outline: Verify Delete Teacher Functionality
+		When User clicks on Teachers module
+		And User clicks on Add Teacher
+		And User enters "<First name>" in first name
+		And User enters "<Last name>" in last name
+		And User enters "<Email>" in email
+		And User enters "<Joining Date>" in joining date
+		And User enters "<Password>" in password
+		And User enters "<Subject>" in subject
+		And User enters "<Mobile number>" in mobile number
+		And User selects "<Gender>" in gender
+		And User selects "<Department>" in department
+		And User enters "<Birth Date>" in birth date
+		And User enters "<Salary>" in salary
+		And User selects "<Batch>" in batch
+		And User enters "<Section>" in section
+		And User enters "<Permanent Address>" in permanent address
+		And User clicks on Submit button
+		And User locates the Teacher
+		And User clicks on drop down toggle
+		And User clicks on delete option
+		And User clicks on delete option from pop up
+		And User should not see the deleted teacher in the UI
+		And Tester should be able to verify deleted teacher in the Database
 
-	
+
+
+		Examples:
+			| First name | Last name | Email                           | Joining Date | Password | Subject  | Mobile number | Gender | Department | Birth Date | Salary | Batch | Section | Permanent Address |
+			| Dwight     | Schrute   | dwightschrute@dundermifflin.com | 01/01/2000   | 6789     | Business | 8475555678    | Male   | English    | 08/15/1980 | 80000  | 12    | Paper   | Scranton, PA      |
+
+
+
+
+
+
+
 	@COD-277
 	Scenario Outline: Verify Delete Student functionality 
 		When User clicks on Student module
