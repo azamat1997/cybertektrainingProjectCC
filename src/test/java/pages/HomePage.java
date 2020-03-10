@@ -7,7 +7,7 @@ import utilities.Driver;
 
 public class HomePage {
 
-    public HomePage(){
+    public HomePage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
@@ -20,7 +20,8 @@ public class HomePage {
     @FindBy(xpath = "//a[.='Add Teacher']")
     public WebElement addTeacherButton;
 
-
+    @FindBy(xpath = "//a[.='All Students']")
+    public WebElement allStudentsButton;
 
     @FindBy(xpath = "(//li[@class='submenu'])[2]/a/span[1]")
     public WebElement students;
